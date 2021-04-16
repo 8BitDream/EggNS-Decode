@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.xiaoji.gamesirnsemulator" platformBuildVersionCode="29" platformBuildVersionName="10">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <application android:allowBackup="true" android:appComponentFactory="s.h.e.l.l.A" android:debuggable="false" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:largeHeap="true" android:name="s.h.e.l.l.S" android:networkSecurityConfig="@xml/network_security_config" android:requestLegacyExternalStorage="true" android:supportsRtl="true" android:theme="@style/AppTheme" android:usesCleartextTraffic="true">
+        <meta-data android:name="android.notch_support" android:value="true"/>
+        <meta-data android:name="design_width_in_dp" android:value="1920"/>
+        <meta-data android:name="design_height_in_dp" android:value="1080"/>
+        <provider android:authorities="com.xiaoji.gamesirnsemulator.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.xiaoji.gamesirnsemulator.ui.SplashActivity" android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.xiaoji.gamesirnsemulator.ui.MainActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:name="com.xiaoji.gamesirnsemulator.ui.GameDetailActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:name="com.xiaoji.gamesirnsemulator.ui.GameSettingActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.xiaoji.gamesirnsemulator.ui.WebViewActivity" android:screenOrientation="sensor"/>
+        <activity android:name="com.xiaoji.gamesirnsemulator.ui.FileManagerActivity" android:theme="@style/transparent_activity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.xiaoji.gamesirnsemulator.user.ui.UserCenterActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:name="com.xiaoji.gamesirnsemulator.user.ui.LoginActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:name="com.xiaoji.gamesirnsemulator.user.ui.RegisterActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:name="com.xiaoji.gamesirnsemulator.user.ui.UserInfoActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:name="com.xiaoji.gamesirnsemulator.user.ui.UserModifyNickNameActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:name="com.xiaoji.gamesirnsemulator.user.ui.BackupsActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:name="com.xiaoji.gamesirnsemulator.user.ui.RetrievePasswordActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:name="com.xiaoji.gamesirnsemulator.ui.AccountDialog" android:theme="@style/transparent_activity"/>
+        <activity android:name="com.xiaoji.gamesirnsemulator.user.ui.ChangePasswordActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:name="com.xiaoji.gamesirnsemulator.user.ui.UnbindActivity" android:screenOrientation="sensorLandscape"/>
+        <service android:exported="true" android:name="com.xiaoji.gamesirnsemulator.sdk.DownloadService"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:launchMode="singleInstance" android:name="io.switchdroid.MainActivity" android:process=":game" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.xiaoji.gamesirnsemulator.ui.GameManageActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="me.goldze.mvvmhabit.base.ContainerActivity"/>
+        <activity android:name="me.goldze.mvvmhabit.crash.DefaultErrorActivity" android:process=":error_activity"/>
+        <provider android:authorities="com.xiaoji.gamesirnsemulator.customactivityoncrashinitprovider" android:exported="false" android:initOrder="101" android:name="me.goldze.mvvmhabit.crash.CaocInitProvider"/>
+        <provider android:authorities="com.xiaoji.gamesirnsemulator.autosize-init-provider" android:exported="false" android:multiprocess="true" android:name="me.jessyan.autosize.InitProvider"/>
+        <activity android:name="com.mob.guard.MobTranPullLockActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.mob.open.app"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.wildma.pictureselector.PictureSelectActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.xiaoji.gamesirnsemulator.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <provider android:authorities="com.xiaoji.gamesirnsemulator.com.mob.MobProvider" android:exported="false" android:multiprocess="true" android:name="com.mob.MobProvider"/>
+        <meta-data android:name="Mob-AppKey" android:value="m301e3b8de72a4"/>
+        <meta-data android:name="Mob-AppSecret" android:value="50adc3b7ea294e65188d36d5d32204d0"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mob.tools.MobUIShell" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <service android:exported="true" android:name="com.mob.guard.MobGuardUpService">
+            <intent-filter>
+                <action android:name="com.mob.intent.MOB_GUARD_SERVICE"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:name="com.mob.guard.MobGuardCommonIdBCReceiver">
+            <intent-filter>
+                <action android:name="com.mlive.id"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.mob.MobTranUpActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="com.mob.open.app"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+</manifest>
