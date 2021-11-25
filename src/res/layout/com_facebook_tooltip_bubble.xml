@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="-2" android:layout_height="-2">
+	<RelativeLayout android:id="false" android:background="res/drawable-xhdpi-v4/com_facebook_tooltip_blue_background.9.png" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" android:layout_centerHorizontal="true">
+		<ImageView android:id="false" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xhdpi-v4/com_facebook_tooltip_blue_xout.png" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+		<TextView android:id="false" android:padding="10dp" android:layout_width="-2" android:layout_height="-2" android:layout_toLeftOf="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="resourceId:0x7f0f018a" />
+	</RelativeLayout>
+	<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="-10dp" android:src="res/drawable-xhdpi-v4/com_facebook_tooltip_blue_topnub.png" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+	<ImageView android:layout_gravity="0x51" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="-13dp" android:src="res/drawable-xhdpi-v4/com_facebook_tooltip_blue_bottomnub.png" android:layout_below="false" android:layout_centerHorizontal="true" />
+</RelativeLayout>

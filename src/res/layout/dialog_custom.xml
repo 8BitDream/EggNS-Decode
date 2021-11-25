@@ -3,7 +3,7 @@
 	<TextView android:textSize="48mm" android:textColor="000" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="80mm" />
 	<TextView android:textSize="30mm" android:textColor="333333" android:gravity="0x11" android:id="false" android:paddingLeft="90mm" android:paddingRight="90mm" android:layout_width="960mm" android:layout_height="0dp" android:layout_marginTop="50mm" android:layout_weight="{4:1065353216}" android:paddingStart="90mm" android:paddingEnd="90mm" />
 	<FrameLayout android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_margin="90mm">
-		<ProgressBar android:layout_gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="70mm" android:progressDrawable="res/drawable/custom_progress.xml" style="resourceId:0x7f0f015f" />
+		<ProgressBar android:layout_gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="70mm" android:progressDrawable="res/drawable/custom_progress.xml" style="resourceId:0x7f0f0163" />
 		<TextView android:textSize="40mm" android:textColor="ffffff" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="0%" />
 	</FrameLayout>
 	<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="50mm" android:showDividers="0x2">

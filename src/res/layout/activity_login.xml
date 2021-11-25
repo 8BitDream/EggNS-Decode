@@ -19,7 +19,7 @@
 				<TextView android:textSize="38mm" android:textColor="666666" android:tag="binding_5" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40mm" android:text="Forget password?" />
 				<TextView android:textSize="38mm" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:tag="binding_6" android:background="res/drawable/bg_circular_red.xml" android:padding="30mm" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="60mm" android:text="Log in" />
 				<LinearLayout android:layout_gravity="0x51" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20mm">
-					<TextView android:textSize="38mm" android:textColor="666666" android:tag="binding_7" android:padding="20mm" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Other login methods" />
+					<TextView android:textSize="38mm" android:textColor="666666" android:tag="binding_7" android:padding="20mm" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:text="Other login methods" />
 					<TextView android:textSize="38mm" android:textColor="2e99f4" android:tag="binding_8" android:padding="20mm" android:layout_width="-2" android:layout_height="-2" android:text="Register" android:layout_marginStart="20mm" />
 				</LinearLayout>
 			</LinearLayout>

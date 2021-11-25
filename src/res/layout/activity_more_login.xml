@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x50" android:tag="layout/activity_more_login_0" android:background="f1f1f2" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+		<TextView android:textSize="38mm" android:textStyle="0x1" android:textColor="828a9f" android:gravity="0x11" android:background="ffffff" android:padding="30mm" android:layout_width="-1" android:layout_height="-2" android:text="Other login options" />
+		<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="2mm">
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:padding="50mm" android:layout_width="-2" android:layout_height="-2">
+				<ImageView android:layout_width="100mm" android:layout_height="100mm" android:src="res/drawable-xxhdpi-v4/pop_share_wechat.png" android:scaleType="1" />
+				<TextView android:textSize="24mm" android:textColor="828a9f" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="17mm" android:text="Wechat" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:padding="50mm" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+				<ImageView android:layout_width="100mm" android:layout_height="100mm" android:src="res/drawable-xxhdpi-v4/pop_share_qq.png" android:scaleType="1" />
+				<TextView android:textSize="24mm" android:textColor="828a9f" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="17mm" android:text="QQ" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:paddingTop="50mm" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:paddingStart="50mm" android:paddingEnd="50mm">
+				<ImageView android:layout_width="100mm" android:layout_height="100mm" android:src="res/drawable-xxhdpi-v4/pop_share_sina.png" android:scaleType="1" />
+				<TextView android:textSize="24mm" android:textColor="828a9f" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="17mm" android:text="Wechat" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:padding="50mm" android:layout_width="-2" android:layout_height="-2">
+				<ImageView android:layout_width="100mm" android:layout_height="100mm" android:src="res/drawable-xxhdpi-v4/pop_share_facebook.png" android:scaleType="1" />
+				<TextView android:textSize="24mm" android:textColor="828a9f" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="17mm" android:text="Facebook" />
+				<com.facebook.login.widget.LoginButton android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:padding="50mm" android:layout_width="-2" android:layout_height="-2">
+				<ImageView android:layout_width="100mm" android:layout_height="100mm" android:src="res/drawable-xxhdpi-v4/pop_share_twitter.png" android:scaleType="1" />
+				<TextView android:textSize="24mm" android:textColor="828a9f" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="17mm" android:text="Twitter" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:padding="50mm" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+				<ImageView android:layout_width="100mm" android:layout_height="100mm" android:src="res/drawable-xxhdpi-v4/pop_share_google.png" android:scaleType="1" />
+				<TextView android:textSize="24mm" android:textColor="828a9f" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="17mm" android:text="Google" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout android:gravity="0x11" android:orientation="0" android:background="ffffff" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="2mm">
+			<ImageView android:id="false" android:layout_width="60mm" android:layout_height="50mm" android:src="res/drawable-xxhdpi-v4/pop_icon_phone.png" />
+			<TextView android:textSize="46mm" android:textColor="000" android:id="false" android:paddingTop="40mm" android:paddingBottom="40mm" android:layout_width="400mm" android:layout_height="-2" android:text="Verification Code" android:paddingStart="10mm" />
+		</LinearLayout>
+		<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20mm">
+			<TextView android:textSize="38mm" android:textColor="e14852" android:paddingTop="25mm" android:paddingBottom="25mm" android:layout_width="-2" android:layout_height="-2" android:text="Cancel" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
