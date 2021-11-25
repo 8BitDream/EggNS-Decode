@@ -6,7 +6,7 @@
 			<TextView android:textSize="18sp" android:textStyle="0x1" android:gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp" android:text="发生意外错误。
 抱歉，给您带来不便。" />
 			<Button android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp" android:text="关闭程序" />
-			<Button android:textColor="{2:2130903130}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="错误日志" style="{2:2130903100}" />
+			<Button android:textColor="{2:2130903134}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="错误日志" style="{2:2130903104}" />
 		</LinearLayout>
 	</ScrollView>
 </RelativeLayout>

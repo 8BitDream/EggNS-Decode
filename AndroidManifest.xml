@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="211" android:versionName="2.1.1" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.xiaoji.gamesirnsemulator" platformBuildVersionCode="29" platformBuildVersionName="10">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="215" android:versionName="2.1.5" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.xiaoji.gamesirnsemulator" platformBuildVersionCode="29" platformBuildVersionName="10">
 	<uses-sdk android:minSdkVersion="28" android:targetSdkVersion="28" />
 	<uses-permission xmlns:android="http://schemas.android.com/apk/res/android" android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -10,16 +10,17 @@
 	<uses-permission xmlns:android="http://schemas.android.com/apk/res/android" android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
 	<uses-permission android:name="android.permission.VIBRATE" />
 	<uses-permission xmlns:android="http://schemas.android.com/apk/res/android" android:name="android.hardware.usb.host" />
-	<uses-feature android:name="android.hardware.usb.host" android:required="true" />
-	<uses-permission xmlns:android="http://schemas.android.com/apk/res/android" android:name="android.permission.CAMERA" />
-	<application android:theme="resourceId:0x7f0f0008" android:label="Egg NS" android:icon="res/mipmap-xxhdpi-v4/ic_launcher.png" android:name="s.h.e.l.l.S" android:debuggable="false" android:allowBackup="true" android:supportsRtl="true" android:extractNativeLibs="true" android:usesCleartextTraffic="true" android:networkSecurityConfig="res/xml/network_security_config.xml" android:appComponentFactory="s.h.e.l.l.A" android:requestLegacyExternalStorage="true">
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+	<uses-feature xmlns:android="http://schemas.android.com/apk/res/android" android:name="android.hardware.usb.host" android:required="true" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<application xmlns:android="http://schemas.android.com/apk/res/android" android:theme="resourceId:0x7f0f0008" android:label="Egg NS" android:icon="res/mipmap-xxhdpi-v4/ic_launcher.png" android:name="s.h.e.l.l.S" android:debuggable="false" android:allowBackup="true" android:supportsRtl="true" android:extractNativeLibs="true" android:usesCleartextTraffic="true" android:networkSecurityConfig="res/xml/network_security_config.xml" android:appComponentFactory="s.h.e.l.l.A" android:requestLegacyExternalStorage="true">
 		<meta-data android:name="android.notch_support" android:value="true" />
-		<meta-data xmlns:android="http://schemas.android.com/apk/res/android" android:name="design_width_in_dp" android:value="1920" />
-		<meta-data android:name="design_height_in_dp" android:value="1080" />
+		<meta-data android:name="design_width_in_dp" android:value="1920" />
+		<meta-data xmlns:android="http://schemas.android.com/apk/res/android" android:name="design_height_in_dp" android:value="1080" />
 		<provider android:name="androidx.core.content.FileProvider" android:exported="false" android:authorities="com.xiaoji.gamesirnsemulator.provider" android:grantUriPermissions="true">
 			<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="res/xml/provider_paths.xml" />
 		</provider>
-		<activity android:name="com.xiaoji.gamesirnsemulator.ui.SplashActivity" android:screenOrientation="sensorLandscape" android:configChanges="0x4b0">
+		<activity xmlns:android="http://schemas.android.com/apk/res/android" android:name="com.xiaoji.gamesirnsemulator.ui.SplashActivity" android:screenOrientation="sensorLandscape" android:configChanges="0x4b0">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
@@ -40,12 +41,13 @@
 		<activity android:name="com.xiaoji.gamesirnsemulator.user.ui.ChangePasswordActivity" android:screenOrientation="sensorLandscape" />
 		<activity android:name="com.xiaoji.gamesirnsemulator.user.ui.UnbindActivity" android:screenOrientation="sensorLandscape" />
 		<service android:name="com.xiaoji.gamesirnsemulator.sdk.DownloadService" android:exported="true" />
-		<activity android:name="com.xiaoji.gamesirnsemulator.emu.GameActivity" android:process=":game" android:screenOrientation="sensorLandscape" android:configChanges="0xa0" />
+		<activity android:name="com.xiaoji.gamesirnsemulator.emu.GameActivity" android:process=":game" android:screenOrientation="reverseLandscape" android:configChanges="0xa0" />
 		<activity android:name="com.xiaoji.gamesirnsemulator.ui.GameManageActivity" android:screenOrientation="sensorLandscape" android:configChanges="0xa0" />
 		<activity android:theme="resourceId:0x7f0f0180" android:name="com.xiaoji.gamesirnsemulator.ui.FileCopyActivity" />
 		<activity android:name="com.xiaoji.gamesirnsemulator.ui.sharedgame.SharedServerManagerActivity" android:screenOrientation="sensorLandscape" />
 		<activity android:theme="resourceId:0x7f0f0180" android:name="com.xiaoji.gamesirnsemulator.ui.sharedgame.FileSharedManagerActivity" android:screenOrientation="sensorLandscape" />
 		<activity android:name="com.xiaoji.gamesirnsemulator.ui.sharedgame.SharedGameSearchActivity" android:screenOrientation="sensorLandscape" />
+		<activity android:name="com.xiaoji.gamesirnsemulator.ui.GraphicsDriverActivity" android:screenOrientation="sensorLandscape" />
 		<activity android:name="me.goldze.mvvmhabit.base.ContainerActivity" android:configChanges="0xa0" />
 		<activity android:name="me.goldze.mvvmhabit.crash.DefaultErrorActivity" android:process=":error_activity" />
 		<provider android:name="me.goldze.mvvmhabit.crash.CaocInitProvider" android:exported="false" android:authorities="com.xiaoji.gamesirnsemulator.customactivityoncrashinitprovider" android:initOrder="101" />

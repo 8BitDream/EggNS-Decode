@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="1" android:background="ffffff" android:layout_width="-2" android:layout_height="-2">
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:paddingTop="30dp" android:paddingBottom="15dp" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:paddingStart="64dp">
+		<ImageView android:layout_width="20dp" android:layout_height="21dp" android:src="res/drawable-xxhdpi-v4/pop_icon_back_game.png" />
+		<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Egg NS" android:layout_marginStart="20dp" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:paddingTop="30dp" android:paddingBottom="30dp" android:layout_width="-1" android:layout_height="-2" android:paddingStart="64dp" android:paddingEnd="64dp">
+		<ImageView android:layout_width="20dp" android:layout_height="20dp" android:src="res/drawable-xxhdpi-v4/pop_icon_quite.png" />
+		<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Exit the game" android:layout_marginStart="20dp" />
+	</LinearLayout>
+</LinearLayout>

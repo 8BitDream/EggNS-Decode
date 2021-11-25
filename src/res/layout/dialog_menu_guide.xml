@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-2" android:layout_height="-2">
+	<FrameLayout android:background="ffffff" android:layout_width="550dp" android:layout_height="330dp">
+		<ImageView android:layout_gravity="0x31" android:layout_width="330dp" android:layout_height="220dp" android:layout_marginTop="10dp" android:src="res/drawable-xxhdpi-v4/pop_img_teach.png" android:scaleType="1" />
+		<LinearLayout android:gravity="0x11" android:layout_gravity="0x51" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="30dp">
+			<TextView android:textSize="18sp" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Back to Egg NS or Exit the game" />
+			<TextView android:textSize="16sp" android:textColor="808080" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Slide out the menu from the left or right edge of the screen" />
+		</LinearLayout>
+	</FrameLayout>
+</FrameLayout>
