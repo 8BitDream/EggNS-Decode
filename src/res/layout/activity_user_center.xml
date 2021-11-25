@@ -16,7 +16,7 @@
 		</RelativeLayout>
 	</RelativeLayout>
 	<FrameLayout android:layout_width="-1" android:layout_height="-1">
-		<LinearLayout android:gravity="0x10" android:orientation="0" android:background="res/drawable/bg_line.xml" android:padding="20mm" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:background="ffffff" android:padding="20mm" android:layout_width="-1" android:layout_height="-1">
 			<RelativeLayout android:tag="binding_6" android:background="res/drawable/bg_circular_white_3.xml" android:padding="20mm" android:visibility="2" android:layout_width="0mm" android:layout_height="280mm" android:layout_margin="20mm" android:layout_weight="{4:1065353216}">
 				<ImageView android:id="false" android:background="res/drawable-xxhdpi-v4/center_icon_archive.png" android:layout_width="100mm" android:layout_height="100mm" android:layout_centerVertical="true" />
 				<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" android:layout_marginStart="20mm" android:layout_marginEnd="20mm" android:layout_toEndOf="false">
@@ -24,14 +24,14 @@
 					<TextView android:textSize="30mm" android:textColor="e6000" android:layout_width="-2" android:layout_height="-2" android:text="Enter game via saves Backup/Restore Backup" />
 				</LinearLayout>
 			</RelativeLayout>
-			<RelativeLayout android:tag="binding_7" android:background="res/drawable/bg_circular_white_3.xml" android:padding="20mm" android:layout_width="0mm" android:layout_height="280mm" android:layout_margin="20mm" android:layout_weight="{4:1065353216}">
+			<RelativeLayout android:gravity="0x11" android:tag="binding_7" android:background="res/drawable/bg_circular_white_4.xml" android:layout_width="0mm" android:layout_height="280mm" android:layout_weight="{4:1065353216}" android:layout_marginStart="120mm">
 				<ImageView android:id="false" android:background="res/drawable-xxhdpi-v4/center_icon_language.png" android:layout_width="100mm" android:layout_height="100mm" android:layout_centerVertical="true" />
 				<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" android:layout_marginStart="20mm" android:layout_marginEnd="20mm" android:layout_toEndOf="false">
 					<TextView android:textSize="38mm" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Change language" />
 					<TextView android:textSize="30mm" android:textColor="e6000" android:layout_width="-2" android:layout_height="-2" android:text="Supprot Chinese, English and Japanese" />
 				</LinearLayout>
 			</RelativeLayout>
-			<RelativeLayout android:tag="binding_8" android:background="res/drawable/bg_circular_white_3.xml" android:padding="20mm" android:layout_width="0mm" android:layout_height="280mm" android:layout_margin="20mm" android:layout_weight="{4:1065353216}">
+			<RelativeLayout android:gravity="0x11" android:tag="binding_8" android:background="res/drawable/bg_circular_white_4.xml" android:layout_width="0mm" android:layout_height="280mm" android:layout_weight="{4:1065353216}" android:layout_marginStart="60mm" android:layout_marginEnd="120mm">
 				<ImageView android:id="false" android:background="res/drawable-xxhdpi-v4/center_icon_update.png" android:layout_width="100mm" android:layout_height="100mm" android:layout_centerVertical="true" />
 				<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" android:layout_marginStart="20mm" android:layout_marginEnd="20mm" android:layout_toEndOf="false">
 					<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">

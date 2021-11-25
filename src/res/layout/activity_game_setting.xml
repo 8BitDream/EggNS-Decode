@@ -21,13 +21,13 @@
 			<LinearLayout android:orientation="1" android:background="99f1f1f2" android:layout_width="-1" android:layout_height="-1">
 				<LinearLayout android:orientation="1" android:tag="binding_8" android:paddingLeft="120mm" android:paddingTop="100mm" android:paddingRight="120mm" android:paddingBottom="80mm" android:layout_width="-1" android:layout_height="-1" android:paddingStart="120mm" android:paddingEnd="120mm">
 					<LinearLayout android:orientation="1" android:background="ffffff" android:paddingTop="50mm" android:paddingBottom="50mm" android:layout_width="-1" android:layout_height="-2">
-						<TextView android:textSize="42mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50mm" android:layout_marginRight="50mm" android:text="Fit all games" android:layout_marginStart="50mm" android:layout_marginEnd="50mm" />
+						<TextView android:textSize="42mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50mm" android:layout_marginRight="50mm" android:text="Necessary to setup" android:layout_marginStart="50mm" android:layout_marginEnd="50mm" />
 						<View android:background="15777777" android:layout_width="-1" android:layout_height="2mm" android:layout_marginTop="25mm" android:layout_marginBottom="25mm" />
 						<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="50mm" android:layout_marginRight="50mm" android:layout_marginStart="50mm" android:layout_marginEnd="50mm">
 							<LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="10mm" android:layout_weight="{4:1065353216}" android:layout_marginEnd="10mm">
 								<RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="25mm">
 									<LinearLayout android:orientation="0" android:id="false" android:paddingBottom="24mm" android:layout_width="-2" android:layout_height="-2">
-										<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Additional files path：" />
+										<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Data directory：" />
 										<TextView android:textSize="35mm" android:textColor="000" android:tag="binding_9" android:layout_width="-2" android:layout_height="-2" />
 									</LinearLayout>
 									<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_alignBottom="false" android:layout_alignParentBottom="true" android:layout_alignStart="false" android:layout_alignEnd="false" />
@@ -36,7 +36,7 @@
 							<TextView android:textSize="32mm" android:textColor="000" android:tag="binding_10" android:background="res/drawable/bg_circular_grey_border.xml" android:paddingLeft="69mm" android:paddingTop="10mm" android:paddingRight="69mm" android:paddingBottom="10mm" android:layout_width="-2" android:layout_height="-2" android:paddingStart="69mm" android:paddingEnd="69mm" />
 						</LinearLayout>
 						<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="50mm" android:layout_marginRight="50mm" android:layout_marginStart="50mm" android:layout_marginEnd="50mm">
-							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Game root directory location：" />
+							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="XCI/NSP storage location：" />
 							<TextView android:textSize="35mm" android:textColor="000" android:tag="binding_11" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
 							<TextView android:textSize="32mm" android:textColor="000" android:tag="binding_12" android:background="res/drawable/bg_circular_grey_border.xml" android:paddingLeft="69mm" android:paddingTop="10mm" android:paddingRight="69mm" android:paddingBottom="10mm" android:layout_width="-2" android:layout_height="-2" android:paddingStart="69mm" android:paddingEnd="69mm" />
 						</LinearLayout>
@@ -50,7 +50,7 @@
 						</LinearLayout>
 						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="25mm" android:layout_marginBottom="25mm" />
 						<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
-							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Region:" />
+							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Region：" />
 							<TextView android:textSize="32mm" android:textColor="000" android:tag="binding_14" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
 							<ImageView android:layout_gravity="0x10" android:layout_width="20mm" android:layout_height="33mm" android:src="res/drawable-xxhdpi-v4/input_icon.png" android:scaleType="1" />
 						</LinearLayout>
@@ -67,101 +67,112 @@
 							<ImageView android:layout_gravity="0x10" android:layout_width="20mm" android:layout_height="33mm" android:src="res/drawable-xxhdpi-v4/input_icon.png" android:scaleType="1" />
 						</LinearLayout>
 						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="25mm" android:layout_marginBottom="25mm" />
-						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
-							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="50mm" android:text="Enable disk shader cache" android:layout_marginEnd="50mm" />
-							<CheckBox android:tag="binding_17" android:layout_width="65mm" android:layout_height="33mm" style="resourceId:0x7f0f017e" />
-						</LinearLayout>
+						<FrameLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+							<TextView android:textSize="32mm" android:textColor="000" android:layout_gravity="0x10" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="50mm" android:text="Enable disk shader cache" android:layout_marginEnd="50mm" />
+							<CheckBox android:layout_gravity="0x10" android:tag="binding_17" android:layout_width="65mm" android:layout_height="33mm" android:layout_marginStart="425mm" style="resourceId:0x7f0f017e" />
+							<TextView android:textSize="24mm" android:textColor="000" android:layout_gravity="0x800015" android:tag="binding_18" android:background="res/drawable/bg_circular_grey_border.xml" android:paddingTop="10mm" android:paddingBottom="10mm" android:layout_width="-2" android:layout_height="-2" android:text="Clear Cache" android:paddingStart="39mm" android:paddingEnd="39mm" />
+						</FrameLayout>
 						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="25mm" android:layout_marginBottom="25mm" />
-						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
-							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="50mm" android:text="Enable video decoding" android:layout_marginEnd="50mm" />
-							<CheckBox android:tag="binding_18" android:layout_width="65mm" android:layout_height="33mm" style="resourceId:0x7f0f017e" />
-						</LinearLayout>
-						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="25mm" android:layout_marginBottom="25mm" />
-						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
-							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="50mm" android:text="Skip user select when start a game" android:layout_marginEnd="50mm" />
+						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginEnd="700mm">
+							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="50mm" android:text="Enable video decoding" android:layout_weight="{4:1065353216}" android:layout_marginEnd="50mm" />
 							<CheckBox android:tag="binding_19" android:layout_width="65mm" android:layout_height="33mm" style="resourceId:0x7f0f017e" />
 						</LinearLayout>
 						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="25mm" android:layout_marginBottom="25mm" />
-						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
-							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="50mm" android:text="Full screen display" android:layout_marginEnd="50mm" />
+						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginEnd="700mm">
+							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="50mm" android:text="Skip user select when start a game" android:layout_weight="{4:1065353216}" android:layout_marginEnd="50mm" />
 							<CheckBox android:tag="binding_20" android:layout_width="65mm" android:layout_height="33mm" style="resourceId:0x7f0f017e" />
 						</LinearLayout>
 						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="25mm" android:layout_marginBottom="25mm" />
-						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
-							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="50mm" android:text="HD Rumble" android:layout_marginEnd="50mm" />
+						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginEnd="700mm">
+							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="50mm" android:text="Full screen display" android:layout_weight="{4:1065353216}" android:layout_marginEnd="50mm" />
 							<CheckBox android:tag="binding_21" android:layout_width="65mm" android:layout_height="33mm" style="resourceId:0x7f0f017e" />
 						</LinearLayout>
 						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="25mm" android:layout_marginBottom="25mm" />
-						<androidx.constraintlayout.widget.ConstraintLayout android:orientation="0" android:tag="binding_22" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginEnd="700mm">
+							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="50mm" android:text="HD Rumble" android:layout_weight="{4:1065353216}" android:layout_marginEnd="50mm" />
+							<CheckBox android:tag="binding_22" android:layout_width="65mm" android:layout_height="33mm" style="resourceId:0x7f0f017e" />
+						</LinearLayout>
+						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="25mm" android:layout_marginBottom="25mm" />
+						<androidx.constraintlayout.widget.ConstraintLayout android:orientation="0" android:tag="binding_23" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
 							<TextView android:textSize="32mm" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="TF卡" binding:layout_constraintStart_toStartOf="0" binding:layout_constraintTop_toTopOf="0" />
 							<TextView android:textSize="28mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="把游戏保存至手机，畅玩游戏。" android:layout_weight="{4:1065353216}" binding:layout_constraintBottom_toBottomOf="0" binding:layout_constraintStart_toStartOf="0" binding:layout_constraintTop_toBottomOf="false" />
 							<ImageView android:layout_gravity="0x10" android:layout_width="20mm" android:layout_height="33mm" android:src="res/drawable-xxhdpi-v4/input_icon.png" android:scaleType="1" binding:layout_constraintBottom_toBottomOf="0" binding:layout_constraintEnd_toEndOf="0" binding:layout_constraintTop_toTopOf="0" />
 						</androidx.constraintlayout.widget.ConstraintLayout>
 					</LinearLayout>
 				</LinearLayout>
-				<LinearLayout android:orientation="1" android:tag="binding_23" android:paddingLeft="120mm" android:paddingTop="100mm" android:paddingRight="120mm" android:paddingBottom="80mm" android:layout_width="-1" android:layout_height="-1" android:paddingStart="120mm" android:paddingEnd="120mm">
+				<LinearLayout android:orientation="1" android:tag="binding_24" android:paddingLeft="120mm" android:paddingTop="100mm" android:paddingRight="120mm" android:paddingBottom="80mm" android:layout_width="-1" android:layout_height="-1" android:paddingStart="120mm" android:paddingEnd="120mm">
 					<LinearLayout android:orientation="1" android:background="ffffff" android:paddingTop="50mm" android:paddingBottom="50mm" android:layout_width="-1" android:layout_height="-2">
 						<TextView android:textSize="42mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50mm" android:layout_marginRight="50mm" android:text="Only for the current game" android:layout_marginStart="50mm" android:layout_marginEnd="50mm" />
 						<View android:background="15777777" android:layout_width="-1" android:layout_height="2mm" android:layout_marginTop="25mm" android:layout_marginBottom="25mm" />
 						<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="50mm" android:layout_marginRight="50mm" android:layout_marginStart="50mm" android:layout_marginEnd="50mm">
 							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Expansion pack" android:layout_weight="{4:1065353216}" />
-							<TextView android:textSize="32mm" android:textColor="000" android:tag="binding_24" android:background="res/drawable/bg_circular_grey_border.xml" android:paddingLeft="69mm" android:paddingTop="10mm" android:paddingRight="69mm" android:paddingBottom="10mm" android:layout_width="-2" android:layout_height="-2" android:paddingStart="69mm" android:paddingEnd="69mm" />
+							<TextView android:textSize="32mm" android:textColor="000" android:tag="binding_25" android:background="res/drawable/bg_circular_grey_border.xml" android:paddingLeft="69mm" android:paddingTop="10mm" android:paddingRight="69mm" android:paddingBottom="10mm" android:layout_width="-2" android:layout_height="-2" android:paddingStart="69mm" android:paddingEnd="69mm" />
 						</LinearLayout>
 						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginLeft="50mm" android:layout_marginTop="10mm" android:layout_marginBottom="10mm" android:layout_marginStart="50mm" android:layout_marginEnd="800mm" />
-						<androidx.recyclerview.widget.RecyclerView android:id="false" android:tag="binding_25" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="50mm" android:layout_marginRight="50mm" android:layout_marginStart="50mm" android:layout_marginEnd="50mm" />
+						<androidx.recyclerview.widget.RecyclerView android:id="false" android:tag="binding_26" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="50mm" android:layout_marginRight="50mm" android:layout_marginStart="50mm" android:layout_marginEnd="50mm" />
 					</LinearLayout>
 					<LinearLayout android:orientation="1" android:background="ffffff" android:padding="50mm" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="50mm">
 						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginEnd="700mm">
 							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Asynchronous GPU：" android:layout_weight="{4:1065353216}" />
-							<CheckBox android:tag="binding_26" android:layout_width="65mm" android:layout_height="33mm" style="resourceId:0x7f0f017e" />
-						</LinearLayout>
-						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="10mm" android:layout_marginEnd="700mm" />
-						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20mm" android:layout_marginEnd="700mm">
-							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Dock mode：" android:layout_weight="{4:1065353216}" />
 							<CheckBox android:tag="binding_27" android:layout_width="65mm" android:layout_height="33mm" style="resourceId:0x7f0f017e" />
 						</LinearLayout>
 						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="10mm" android:layout_marginEnd="700mm" />
 						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20mm" android:layout_marginEnd="700mm">
-							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="async shaders (experimental)" android:layout_weight="{4:1065353216}" />
+							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Dock mode：" android:layout_weight="{4:1065353216}" />
 							<CheckBox android:tag="binding_28" android:layout_width="65mm" android:layout_height="33mm" style="resourceId:0x7f0f017e" />
 						</LinearLayout>
 						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="10mm" android:layout_marginEnd="700mm" />
 						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20mm" android:layout_marginEnd="700mm">
-							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Disables texture prerefresh" android:layout_weight="{4:1065353216}" />
+							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="async shaders (experimental)" android:layout_weight="{4:1065353216}" />
 							<CheckBox android:tag="binding_29" android:layout_width="65mm" android:layout_height="33mm" style="resourceId:0x7f0f017e" />
 						</LinearLayout>
 						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="10mm" android:layout_marginEnd="700mm" />
 						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20mm" android:layout_marginEnd="700mm">
-							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Fence hack" android:layout_weight="{4:1065353216}" />
+							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Disables texture prerefresh" android:layout_weight="{4:1065353216}" />
 							<CheckBox android:tag="binding_30" android:layout_width="65mm" android:layout_height="33mm" style="resourceId:0x7f0f017e" />
 						</LinearLayout>
 						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="10mm" android:layout_marginEnd="700mm" />
 						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20mm" android:layout_marginEnd="700mm">
-							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Disable patch packs" android:layout_weight="{4:1065353216}" />
+							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Fence hack" android:layout_weight="{4:1065353216}" />
 							<CheckBox android:tag="binding_31" android:layout_width="65mm" android:layout_height="33mm" style="resourceId:0x7f0f017e" />
+						</LinearLayout>
+						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="10mm" android:layout_marginEnd="700mm" />
+						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20mm" android:layout_marginEnd="700mm">
+							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Disable patch packs" android:layout_weight="{4:1065353216}" />
+							<CheckBox android:tag="binding_32" android:layout_width="65mm" android:layout_height="33mm" style="resourceId:0x7f0f017e" />
+						</LinearLayout>
+						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="10mm" android:layout_marginEnd="700mm" />
+						<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20mm" android:layout_marginEnd="700mm">
+							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Enable Occlusion Query" android:layout_weight="{4:1065353216}" />
+							<CheckBox android:tag="binding_33" android:layout_width="65mm" android:layout_height="33mm" style="resourceId:0x7f0f017e" />
 						</LinearLayout>
 						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="10mm" android:layout_marginEnd="700mm" />
 						<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20mm">
 							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Fast memory" />
-							<TextView android:textSize="32mm" android:textColor="000" android:tag="binding_32" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}" android:paddingStart="20mm" />
+							<TextView android:textSize="32mm" android:textColor="000" android:tag="binding_34" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}" android:paddingStart="20mm" />
 							<ImageView android:layout_gravity="0x10" android:layout_width="20mm" android:layout_height="33mm" android:src="res/drawable-xxhdpi-v4/input_icon.png" android:scaleType="1" />
 						</LinearLayout>
 						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="10mm" />
 						<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20mm">
 							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="CPU scheduler type" />
-							<TextView android:textSize="32mm" android:textColor="000" android:tag="binding_33" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}" android:paddingStart="20mm" />
+							<TextView android:textSize="32mm" android:textColor="000" android:tag="binding_35" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}" android:paddingStart="20mm" />
 							<ImageView android:layout_gravity="0x10" android:layout_width="20mm" android:layout_height="33mm" android:src="res/drawable-xxhdpi-v4/input_icon.png" android:scaleType="1" />
 						</LinearLayout>
 						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="10mm" />
 						<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20mm">
 							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="GPU accuracy" />
-							<TextView android:textSize="32mm" android:textColor="000" android:tag="binding_34" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}" android:paddingStart="20mm" />
+							<TextView android:textSize="32mm" android:textColor="000" android:tag="binding_36" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}" android:paddingStart="20mm" />
 							<ImageView android:layout_gravity="0x10" android:layout_width="20mm" android:layout_height="33mm" android:src="res/drawable-xxhdpi-v4/input_icon.png" android:scaleType="1" />
+						</LinearLayout>
+						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="10mm" />
+						<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20mm">
+							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Vulkan flush threshold[0–4096]：" />
+							<EditText android:textSize="32mm" android:textColor="000" android:gravity="0x11" android:id="false" android:tag="binding_37" android:background="res/drawable/bg_circular_grey_border2.xml" android:layout_width="200mm" android:layout_height="-2" android:maxLines="1" android:inputType="0x2" android:layout_marginStart="20mm" />
 						</LinearLayout>
 						<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="10mm" />
 						<LinearLayout android:gravity="0x10" android:orientation="0" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20mm" android:layout_marginEnd="700mm">
 							<TextView android:textSize="32mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Auto Skip Frame：" android:layout_weight="{4:1065353216}" />
-							<CheckBox android:tag="binding_35" android:layout_width="65mm" android:layout_height="33mm" style="resourceId:0x7f0f017e" />
+							<CheckBox android:tag="binding_38" android:layout_width="65mm" android:layout_height="33mm" style="resourceId:0x7f0f017e" />
 						</LinearLayout>
 					</LinearLayout>
 				</LinearLayout>

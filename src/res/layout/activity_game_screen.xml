@@ -7,7 +7,7 @@
 	<com.xiaoji.gamesirnsemulator.emu.StrokeTextView android:textSize="10dp" android:textStyle="0x1" android:textColor="fffaf0" android:layout_gravity="0x800035" android:id="false" android:padding="8dp" android:visibility="1" android:layout_width="-2" android:layout_height="-2" app:stroke_color="resourceId:0x106000c" app:stroke_width="2dp" />
 	<com.xiaoji.gamesirnsemulator.emu.StrokeTextView android:textSize="9dp" android:textStyle="0x1" android:textColor="fffaf0" android:layout_gravity="0x53" android:id="false" android:padding="8dp" android:layout_width="-2" android:layout_height="-2" android:alpha="{4:1058642330}" app:stroke_color="resourceId:0x106000c" app:stroke_width="2dp" />
 	<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-1">
-		<ImageView android:layout_width="80dp" android:layout_height="80dp" android:layout_margin="10dp" android:src="res/drawable-xxhdpi-v4/ic_splash_icon.png" android:scaleType="1" />
+		<pl.droidsonroids.gif.GifImageView android:layout_width="80dp" android:layout_height="80dp" android:layout_margin="10dp" android:src="res/drawable/gif_egg_anim.gif" android:scaleType="1" />
 		<ProgressBar android:id="false" android:layout_width="200dp" android:layout_height="30dp" style="{2:16842872}" />
 	</LinearLayout>
 </FrameLayout>

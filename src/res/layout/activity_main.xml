@@ -13,11 +13,11 @@
 		</LinearLayout>
 		<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="1" android:tag="binding_4" android:background="res/drawable/bitmap_main_bg.xml" android:layout_width="-1" android:layout_height="-1">
 			<ImageView android:layout_width="176mm" android:layout_height="134mm" android:src="res/drawable-xxhdpi-v4/ic_home_nogame.png" android:scaleType="1" />
-			<TextView android:textSize="28mm" android:textColor="aaaaaa" android:layout_gravity="0x1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="25mm" android:text="暂无共享游戏" />
+			<TextView android:textSize="28mm" android:textColor="e5e5e5" android:layout_gravity="0x1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="25mm" android:text="暂无共享游戏" />
 			<TextView android:textSize="32mm" android:textStyle="0x1" android:textColor="ffffff" android:gravity="0x11" android:tag="binding_5" android:background="res/drawable/bg_circular_red_bg.xml" android:layout_width="300mm" android:layout_height="87mm" android:layout_marginTop="45mm" android:text="连接服务器" android:maxLines="1" android:autoSizeTextType="1" android:autoSizeStepGranularity="1mm" android:autoSizeMinTextSize="10mm" android:autoSizeMaxTextSize="36mm" />
 			<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="25mm">
-				<TextView android:textSize="28mm" android:textColor="aaaaaa" android:tag="binding_6" android:layout_width="-2" android:layout_height="-2" android:text="如何添加游戏？" />
-				<TextView android:textSize="28mm" android:textColor="aaaaaa" android:tag="binding_7" android:layout_width="-2" android:layout_height="-2" android:text="如何设置共享？" android:layout_marginStart="30mm" />
+				<TextView android:textSize="28mm" android:textColor="e5e5e5" android:tag="binding_6" android:layout_width="-2" android:layout_height="-2" android:text="如何添加游戏？" />
+				<TextView android:textSize="28mm" android:textColor="e5e5e5" android:tag="binding_7" android:layout_width="-2" android:layout_height="-2" android:text="如何设置共享？" android:layout_marginStart="30mm" />
 			</LinearLayout>
 		</LinearLayout>
 		<LinearLayout android:layout_gravity="0x55" android:orientation="1" android:tag="binding_8" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="100mm" android:layout_marginEnd="30mm">

@@ -8,31 +8,33 @@
 		<ImageView android:id="false" android:tag="binding_2" android:layout_width="150mm" android:layout_height="150mm" android:layout_marginTop="150mm" android:src="res/drawable-xxhdpi-v4/image_user_nomal.png" android:scaleType="1" android:layout_centerHorizontal="true" />
 		<TextView android:textSize="38mm" android:textColor="4f5756" android:gravity="0x11" android:layout_gravity="0x10" android:tag="binding_3" android:padding="30mm" android:layout_width="-1" android:layout_height="-2" />
 	</LinearLayout>
-	<LinearLayout android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
-		<LinearLayout android:orientation="1" android:background="f1f1f2" android:padding="50mm" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="120mm" android:layout_marginBottom="50mm" android:layout_marginStart="110mm" android:layout_marginEnd="110mm">
-			<TextView android:textSize="38mm" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:text="Nickname" />
-			<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10mm">
-				<TextView android:textSize="38mm" android:textColor="4f5756" android:gravity="0x800003" android:layout_gravity="0x10" android:tag="binding_4" android:paddingTop="10mm" android:paddingBottom="10mm" android:layout_width="-1" android:layout_height="-2" android:textAlignment="5" />
-				<TextView android:textSize="38mm" android:textColor="4f5756" android:layout_gravity="0x800015" android:tag="binding_5" android:background="res/drawable/bg_circular_grey_border.xml" android:paddingLeft="60mm" android:paddingTop="10mm" android:paddingRight="60mm" android:paddingBottom="10mm" android:layout_width="-2" android:layout_height="-2" android:text="Change" android:paddingStart="60mm" android:paddingEnd="60mm" android:layout_marginEnd="40mm" />
-			</FrameLayout>
-			<View android:background="15777777" android:layout_width="706mm" android:layout_height="2mm" />
-			<TextView android:textSize="38mm" android:textColor="999999" android:tag="binding_6" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40mm" />
-			<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10mm">
-				<TextView android:textSize="38mm" android:textColor="4f5756" android:gravity="0x800003" android:layout_gravity="0x10" android:tag="binding_7" android:paddingTop="10mm" android:paddingBottom="10mm" android:layout_width="-1" android:layout_height="-2" android:textAlignment="5" />
-				<TextView android:textSize="38mm" android:textColor="4f5756" android:layout_gravity="0x800015" android:tag="binding_8" android:background="res/drawable/bg_circular_grey_border.xml" android:paddingLeft="60mm" android:paddingTop="10mm" android:paddingRight="60mm" android:paddingBottom="10mm" android:layout_width="-2" android:layout_height="-2" android:text="Change" android:paddingStart="60mm" android:paddingEnd="60mm" android:layout_marginEnd="40mm" />
-			</FrameLayout>
-			<View android:background="15777777" android:layout_width="706mm" android:layout_height="2mm" />
-			<TextView android:textSize="38mm" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40mm" android:text="Contact info" />
-			<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10mm">
-				<TextView android:textSize="38mm" android:textColor="4f5756" android:gravity="0x800003" android:layout_gravity="0x10" android:tag="binding_9" android:paddingTop="10mm" android:paddingBottom="10mm" android:layout_width="-1" android:layout_height="-2" android:textAlignment="5" />
-				<TextView android:textSize="38mm" android:textColor="4f5756" android:layout_gravity="0x800015" android:tag="binding_10" android:background="res/drawable/bg_circular_grey_border.xml" android:paddingLeft="60mm" android:paddingTop="10mm" android:paddingRight="60mm" android:paddingBottom="10mm" android:layout_width="-2" android:layout_height="-2" android:paddingStart="60mm" android:paddingEnd="60mm" android:layout_marginEnd="40mm" />
-			</FrameLayout>
-			<View android:background="15777777" android:layout_width="706mm" android:layout_height="2mm" />
-			<TextView android:textSize="38mm" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40mm" android:text="Password" />
-			<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10mm">
-				<TextView android:enabled="false" android:textSize="46mm" android:textColor="4f5756" android:gravity="0x800003" android:layout_gravity="0x10" android:background="resourceId:0x0" android:paddingTop="10mm" android:paddingBottom="10mm" android:layout_width="-1" android:layout_height="-2" android:text="000000" android:inputType="0x81" android:textAlignment="5" />
-				<TextView android:textSize="38mm" android:textColor="4f5756" android:layout_gravity="0x800015" android:tag="binding_11" android:background="res/drawable/bg_circular_grey_border.xml" android:paddingLeft="60mm" android:paddingTop="10mm" android:paddingRight="60mm" android:paddingBottom="10mm" android:layout_width="-2" android:layout_height="-2" android:text="Change" android:paddingStart="60mm" android:paddingEnd="60mm" android:layout_marginEnd="40mm" />
-			</FrameLayout>
-		</LinearLayout>
-	</LinearLayout>
+	<androidx.core.widget.NestedScrollView android:layout_width="-1" android:layout_height="-1">
+		<FrameLayout android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="1" android:background="f1f1f2" android:padding="50mm" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="120mm" android:layout_marginBottom="50mm" android:layout_marginStart="110mm" android:layout_marginEnd="110mm">
+				<TextView android:textSize="38mm" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:text="Nickname" />
+				<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10mm">
+					<TextView android:textSize="38mm" android:textColor="4f5756" android:gravity="0x800003" android:layout_gravity="0x10" android:tag="binding_4" android:paddingTop="10mm" android:paddingBottom="10mm" android:layout_width="-1" android:layout_height="-2" android:textAlignment="5" />
+					<TextView android:textSize="38mm" android:textColor="4f5756" android:layout_gravity="0x800015" android:tag="binding_5" android:background="res/drawable/bg_circular_grey_border.xml" android:paddingLeft="60mm" android:paddingTop="10mm" android:paddingRight="60mm" android:paddingBottom="10mm" android:layout_width="-2" android:layout_height="-2" android:text="Change" android:paddingStart="60mm" android:paddingEnd="60mm" android:layout_marginEnd="40mm" />
+				</FrameLayout>
+				<View android:background="15777777" android:layout_width="706mm" android:layout_height="2mm" />
+				<TextView android:textSize="38mm" android:textColor="999999" android:tag="binding_6" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40mm" />
+				<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10mm">
+					<TextView android:textSize="38mm" android:textColor="4f5756" android:gravity="0x800003" android:layout_gravity="0x10" android:tag="binding_7" android:paddingTop="10mm" android:paddingBottom="10mm" android:layout_width="-1" android:layout_height="-2" android:textAlignment="5" />
+					<TextView android:textSize="38mm" android:textColor="4f5756" android:layout_gravity="0x800015" android:tag="binding_8" android:background="res/drawable/bg_circular_grey_border.xml" android:paddingLeft="60mm" android:paddingTop="10mm" android:paddingRight="60mm" android:paddingBottom="10mm" android:layout_width="-2" android:layout_height="-2" android:text="Change" android:paddingStart="60mm" android:paddingEnd="60mm" android:layout_marginEnd="40mm" />
+				</FrameLayout>
+				<View android:background="15777777" android:layout_width="706mm" android:layout_height="2mm" />
+				<TextView android:textSize="38mm" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40mm" android:text="Contact info" />
+				<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10mm">
+					<TextView android:textSize="38mm" android:textColor="4f5756" android:gravity="0x800003" android:layout_gravity="0x10" android:tag="binding_9" android:paddingTop="10mm" android:paddingBottom="10mm" android:layout_width="-1" android:layout_height="-2" android:textAlignment="5" />
+					<TextView android:textSize="38mm" android:textColor="4f5756" android:layout_gravity="0x800015" android:tag="binding_10" android:background="res/drawable/bg_circular_grey_border.xml" android:paddingLeft="60mm" android:paddingTop="10mm" android:paddingRight="60mm" android:paddingBottom="10mm" android:layout_width="-2" android:layout_height="-2" android:paddingStart="60mm" android:paddingEnd="60mm" android:layout_marginEnd="40mm" />
+				</FrameLayout>
+				<View android:background="15777777" android:layout_width="706mm" android:layout_height="2mm" />
+				<TextView android:textSize="38mm" android:textColor="999999" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40mm" android:text="Password" />
+				<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10mm">
+					<TextView android:enabled="false" android:textSize="46mm" android:textColor="4f5756" android:gravity="0x800003" android:layout_gravity="0x10" android:background="resourceId:0x0" android:paddingTop="10mm" android:paddingBottom="10mm" android:layout_width="-1" android:layout_height="-2" android:text="000000" android:inputType="0x81" android:textAlignment="5" />
+					<TextView android:textSize="38mm" android:textColor="4f5756" android:layout_gravity="0x800015" android:tag="binding_11" android:background="res/drawable/bg_circular_grey_border.xml" android:paddingLeft="60mm" android:paddingTop="10mm" android:paddingRight="60mm" android:paddingBottom="10mm" android:layout_width="-2" android:layout_height="-2" android:text="Change" android:paddingStart="60mm" android:paddingEnd="60mm" android:layout_marginEnd="40mm" />
+				</FrameLayout>
+			</LinearLayout>
+		</FrameLayout>
+	</androidx.core.widget.NestedScrollView>
 </LinearLayout>
