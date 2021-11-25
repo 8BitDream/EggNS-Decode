@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20mm">
+	<RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}">
+		<TextView android:textSize="35mm" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}" />
+		<View android:background="808080" android:layout_width="-2" android:layout_height="1mm" android:layout_marginTop="10mm" android:layout_below="false" android:layout_alignStart="false" android:layout_alignEnd="false" />
+	</RelativeLayout>
+	<FrameLayout android:id="false" android:layout_width="44mm" android:layout_height="44mm" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+		<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-xxhdpi-v4/pop_icon_input_nomal.png" android:scaleType="1" />
+	</FrameLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:tag="layout/activity_webview_0" android:background="e5e5e5" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<androidx.appcompat.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-1" android:layout_height="50dp" android:minHeight="{2:2130903043}" app:contentInsetLeft="0dp" app:contentInsetStart="0dp">
+		<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-1">
+			<ImageView android:id="false" android:padding="17dp" android:layout_width="50dp" android:layout_height="-1" android:src="res/drawable-xxhdpi-v4/nav_icon_back.png" />
+			<TextView android:textSize="17sp" android:textColor="000" android:ellipsize="2" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="50dp" android:layout_marginRight="10dp" android:singleLine="true" android:layout_marginStart="50dp" android:layout_marginEnd="10dp" />
+		</FrameLayout>
+	</androidx.appcompat.widget.Toolbar>
+	<ProgressBar android:id="false" android:background="resourceId:0x0" android:visibility="2" android:layout_width="-1" android:layout_height="3dp" android:progressDrawable="res/drawable/progress_bar_layer.xml" style="{2:16842872}" />
+	<WebView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

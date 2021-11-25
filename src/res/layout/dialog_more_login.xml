@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="e5e5e5" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:background="ffffff" android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:layout_width="60mm" android:layout_height="50mm" android:src="res/drawable-xxhdpi-v4/pop_icon_wechat.png" />
+		<TextView android:textSize="46mm" android:textColor="000" android:paddingTop="40mm" android:paddingBottom="40mm" android:layout_width="400mm" android:layout_height="-2" android:text="Wechat" android:paddingStart="10mm" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="2mm">
+		<ImageView android:layout_width="60mm" android:layout_height="50mm" android:src="res/drawable-xxhdpi-v4/pop_icon_facebook.png" />
+		<TextView android:textSize="46mm" android:textColor="000" android:paddingTop="40mm" android:paddingBottom="40mm" android:layout_width="400mm" android:layout_height="-2" android:text="Facebook" android:paddingStart="10mm" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="2mm">
+		<ImageView android:id="false" android:layout_width="60mm" android:layout_height="50mm" android:src="res/drawable-xxhdpi-v4/pop_icon_phone.png" />
+		<TextView android:textSize="46mm" android:textColor="000" android:id="false" android:paddingTop="40mm" android:paddingBottom="40mm" android:layout_width="400mm" android:layout_height="-2" android:text="Verification Code" android:paddingStart="10mm" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:background="ffffff" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="30mm">
+		<TextView android:textSize="46mm" android:textColor="e14852" android:paddingTop="40mm" android:paddingBottom="40mm" android:layout_width="-2" android:layout_height="-2" android:text="Cancel" />
+	</LinearLayout>
+</LinearLayout>

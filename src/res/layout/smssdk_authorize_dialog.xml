@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="res/drawable/smssdk_authorize_dialog_bg.xml" android:layout_width="-1" android:layout_height="-2">
+	<TextView android:textSize="18dp" android:textStyle="0x1" android:textColor="202122" android:layout_gravity="0x1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:text="Terms of Use" />
+	<cn.smssdk.ui.companent.CircleImageView android:layout_gravity="0x1" android:id="false" android:layout_width="45dp" android:layout_height="45dp" android:layout_marginTop="10dp" android:scaleType="7" android:contentDescription="logo" />
+	<View android:background="f5f5f5" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="10dp" />
+	<TextView android:textSize="14dp" android:textColor="555555" android:id="false" android:paddingLeft="15dp" android:paddingTop="20dp" android:paddingRight="15dp" android:paddingBottom="20dp" android:layout_width="-1" android:layout_height="-2" android:text="MobTech will，collect your mobile phone number in order to assist you with completing registration and to protect your account security. Refusing will render the normal functions useless. Continue?" />
+	<View android:background="f5f5f5" android:layout_width="-1" android:layout_height="1dp" />
+	<LinearLayout android:gravity="0x10" android:layout_width="-1" android:layout_height="45dp">
+		<TextView android:textSize="18dp" android:textColor="202122" android:gravity="0x11" android:id="false" android:background="res/drawable/smssdk_authorize_bottom_left_round_btn.xml" android:layout_width="0dp" android:layout_height="-1" android:text="Disagree" android:layout_weight="{4:1065353216}" />
+		<View android:background="f5f5f5" android:layout_width="1dp" android:layout_height="-1" />
+		<TextView android:textSize="18dp" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/smssdk_authorize_bottom_right_round_btn.xml" android:layout_width="0dp" android:layout_height="-1" android:text="Agree" android:layout_weight="{4:1065353216}" />
+	</LinearLayout>
+</LinearLayout>

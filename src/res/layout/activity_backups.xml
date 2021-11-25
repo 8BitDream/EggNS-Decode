@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto" android:orientation="0" android:tag="layout/activity_backups_0" android:background="res/drawable/bg_line1.xml" android:paddingTop="80mm" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x1" android:orientation="1" android:background="res/drawable/bg_line1.xml" android:paddingBottom="60mm" android:layout_width="400mm" android:layout_height="-1">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:tag="binding_1" android:background="e5e5e5" android:padding="30mm" android:layout_width="-1" android:layout_height="-2">
+			<ImageView android:id="false" android:layout_width="20mm" android:layout_height="33mm" android:src="res/drawable-xxhdpi-v4/nav_icon_back.png" android:scaleType="1" />
+			<TextView android:textSize="36mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20mm" android:text="Back" android:layout_marginStart="20mm" />
+		</LinearLayout>
+		<TextView android:textSize="46mm" android:textColor="res/color/item_color_selector.xml" android:tag="binding_2" android:background="res/drawable/item_selector.xml" android:paddingBottom="20mm" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="100mm" android:text="Not backed up" android:layout_below="false" android:paddingStart="20mm" android:paddingEnd="20mm" />
+		<TextView android:textSize="46mm" android:textColor="res/color/item_color_selector.xml" android:tag="binding_3" android:background="res/drawable/item_selector.xml" android:paddingBottom="20mm" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="100mm" android:text="Backed up" android:layout_below="false" android:paddingStart="20mm" android:paddingEnd="20mm" />
+	</LinearLayout>
+	<RelativeLayout android:tag="binding_4" android:background="res/drawable/bg_line.xml" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+			<ImageView android:background="res/drawable-xxhdpi-v4/nogame.png" android:layout_width="400mm" android:layout_height="250mm" />
+			<TextView android:textSize="46mm" android:textColor="4f5756" android:layout_gravity="0x1" android:tag="binding_5" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40mm" />
+		</LinearLayout>
+	</RelativeLayout>
+	<RelativeLayout android:tag="binding_6" android:background="res/drawable/bg_line.xml" android:padding="80mm" android:layout_width="-1" android:layout_height="-1">
+		<TextView android:textSize="38mm" android:textColor="666666" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Choose a save to enter the game" />
+		<LinearLayout android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20mm" android:layout_alignParentBottom="true">
+			<TextView android:textSize="38mm" android:textColor="e14852" android:gravity="0x11" android:tag="binding_7" android:background="res/drawable/bg_circular_red_border.xml" android:padding="25mm" android:layout_width="-2" android:layout_height="-2" android:minWidth="320mm" android:text="Manage saves" />
+			<LinearLayout android:tag="binding_8" android:layout_width="-2" android:layout_height="-2">
+				<TextView android:textSize="38mm" android:textColor="ffffff" android:gravity="0x11" android:tag="binding_9" android:background="res/drawable/bg_circular_red.xml" android:padding="25mm" android:layout_width="320mm" android:layout_height="-2" android:text="Confirm delete" />
+				<TextView android:textSize="38mm" android:textColor="ffffff" android:gravity="0x11" android:tag="binding_10" android:background="res/drawable/bg_circular_red.xml" android:padding="25mm" android:layout_width="320mm" android:layout_height="-2" android:layout_marginStart="50mm" />
+				<TextView android:textSize="38mm" android:textColor="ffffff" android:gravity="0x11" android:tag="binding_11" android:background="res/drawable/bg_circular_red.xml" android:padding="25mm" android:layout_width="320mm" android:layout_height="-2" android:layout_marginStart="50mm" />
+				<TextView android:textSize="38mm" android:textColor="ffffff" android:gravity="0x11" android:tag="binding_12" android:background="res/drawable/bg_circular_red.xml" android:padding="25mm" android:layout_width="320mm" android:layout_height="-2" android:text="Back" android:layout_marginStart="50mm" />
+			</LinearLayout>
+		</LinearLayout>
+		<androidx.recyclerview.widget.RecyclerView android:id="false" android:tag="binding_13" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="40mm" android:layout_above="false" android:layout_below="false" android:layout_centerVertical="true" />
+	</RelativeLayout>
+</LinearLayout>

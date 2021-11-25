@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:layout_width="-1" android:layout_height="-1">
+	<ScrollView android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:gravity="0x11" android:orientation="1" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="-1" android:layout_height="-2">
+			<ImageView android:id="false" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxxhdpi-v4/customactivityoncrash_error_image.png" android:contentDescription="resourceId:0x0" />
+			<TextView android:textSize="18sp" android:textStyle="0x1" android:gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp" android:text="发生意外错误。
+抱歉，给您带来不便。" />
+			<Button android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16dp" android:text="关闭程序" />
+			<Button android:textColor="{2:2130903129}" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="错误日志" style="{2:2130903100}" />
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="1" android:background="res/drawable/shape_select_picture_dialog_bg.xml" android:layout_width="-1" android:layout_height="-2">
+		<Button android:textSize="20sp" android:textColor="333333" android:gravity="0x11" android:id="false" android:background="res/drawable/selector_select_picture_top_corners.xml" android:padding="30mm" android:layout_width="-1" android:layout_height="-2" android:text="Take a picture" />
+		<include layout="res/layout/include_line_horizontal_05dp_f8f8f8.xml" />
+		<Button android:textSize="20sp" android:textColor="333333" android:gravity="0x11" android:id="false" android:background="res/drawable/selector_select_picture_bottom_corners.xml" android:padding="30mm" android:layout_width="-1" android:layout_height="-2" android:text="Select from the album" />
+	</LinearLayout>
+	<LinearLayout android:orientation="1" android:background="res/drawable/shape_select_picture_dialog_bg.xml" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="7dp" android:layout_marginBottom="5dp">
+		<Button android:textSize="20sp" android:textColor="333333" android:gravity="0x11" android:id="false" android:background="res/drawable/selector_select_picture_all_corners.xml" android:padding="30mm" android:layout_width="-1" android:layout_height="-2" android:text="Cancel" />
+	</LinearLayout>
+</LinearLayout>

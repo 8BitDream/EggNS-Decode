@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x11" android:orientation="1" android:background="res/drawable/bg_circular_white_2.xml" android:padding="80mm" android:layout_width="-2" android:layout_height="-2">
+	<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="960mm" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
+	<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="50mm" android:showDividers="0x2">
+		<TextView android:textSize="36mm" android:textColor="666666" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_circular_red_grey.xml" android:layout_width="280mm" android:layout_height="80mm" android:layout_marginRight="80mm" android:text="Cancel" android:maxLines="1" android:layout_marginEnd="80mm" android:autoSizeTextType="1" android:autoSizeStepGranularity="1mm" android:autoSizeMinTextSize="10mm" android:autoSizeMaxTextSize="36mm" />
+		<TextView android:textSize="36mm" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_circular_red_bg.xml" android:layout_width="280mm" android:layout_height="80mm" android:text="Sure" android:maxLines="1" android:autoSizeTextType="1" android:autoSizeStepGranularity="1mm" android:autoSizeMinTextSize="10mm" android:autoSizeMaxTextSize="36mm" />
+	</LinearLayout>
+</LinearLayout>

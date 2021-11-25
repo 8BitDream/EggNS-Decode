@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.afollestad.materialdialogs.internal.MDRootLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+	<include layout="res/layout/md_stub_titleframe_lesspadding.xml" />
+	<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+		<ScrollView android:id="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2">
+			<TextView android:textSize="16sp" android:id="false" android:paddingLeft="24dp" android:paddingTop="8dp" android:paddingRight="24dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="-2" />
+		</ScrollView>
+		<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+			<androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="33554432" android:id="false" android:paddingTop="8dp" android:paddingBottom="8dp" android:scrollbars="0x200" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" />
+		</FrameLayout>
+	</LinearLayout>
+	<include layout="res/layout/md_stub_actionbuttons.xml" />
+</com.afollestad.materialdialogs.internal.MDRootLayout>

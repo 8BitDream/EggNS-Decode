@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.afollestad.materialdialogs.internal.MDRootLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:layout_width="-1" android:layout_height="-2" app:md_reduce_padding_no_title_no_buttons="false">
+	<include layout="res/layout/md_stub_titleframe.xml" />
+	<LinearLayout android:orientation="1" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+		<TextView android:textSize="16sp" android:layout_gravity="0x1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="24dp" android:layout_marginTop="4dp" android:layout_marginRight="24dp" android:layout_marginBottom="8dp" android:fontFamily="sans-serif" />
+		<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="24dp" android:layout_marginRight="24dp">
+			<EditText android:textSize="16sp" android:id="resourceId:0x1020009" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="-2dp" android:layout_marginRight="-2dp" android:layout_marginBottom="1dp" />
+			<TextView android:textSize="12sp" android:gravity="0x800005" android:id="false" android:paddingRight="4dp" android:layout_width="-2" android:layout_height="-2" android:minWidth="48dp" android:layout_below="resourceId:0x1020009" android:layout_alignRight="resourceId:0x1020009" android:fontFamily="sans-serif" android:textAlignment="6" android:paddingEnd="4dp" android:layout_alignEnd="resourceId:0x1020009" />
+		</RelativeLayout>
+		<CheckBox android:id="false" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" />
+	</LinearLayout>
+	<include layout="res/layout/md_stub_actionbuttons.xml" />
+</com.afollestad.materialdialogs.internal.MDRootLayout>

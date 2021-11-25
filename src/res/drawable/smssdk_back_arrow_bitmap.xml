@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:height="868352unknown unit:0x21" android:width="868352unknown unit:0x21" android:drawable="res/drawable-xhdpi-v4/smssdk_back_arrow.png" />
+</layer-list>

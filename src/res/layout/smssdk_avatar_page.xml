@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="resourceId:0x106000b" android:layout_width="-1" android:layout_height="-1">
+	<include android:layout_width="-1" android:layout_height="48dp" layout="res/layout/smssdk_titlebar.xml" />
+	<TextView android:textSize="20sp" android:textColor="2a2b30" android:gravity="0x11" android:layout_width="-1" android:layout_height="-2" android:text="请填写您的资料" />
+	<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="28dp">
+		<com.mob.tools.gui.AsyncImageView android:id="false" android:layout_width="120dp" android:layout_height="120dp" android:src="res/drawable-xhdpi-v4/smssdk_cp_default_avatar.png" android:scaleType="6" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:contentDescription="resourceId:0x0" />
+		<TextView android:textSize="14sp" android:textColor="c7c7c7" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="点击选择头像" android:singleLine="true" android:layout_centerInParent="true" />
+	</RelativeLayout>
+	<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginTop="56dp" android:layout_marginRight="20dp">
+		<TextView android:textSize="14sp" android:textColor="resourceId:0x106000c" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="昵称" android:layout_alignBaseline="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+		<EditText android:textSize="14sp" android:textColorHint="c7c7c7" android:gravity="0x13" android:id="false" android:background="resourceId:0x0" android:paddingLeft="62dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:hint="请填写您的昵称" android:singleLine="true" android:layout_toRightOf="false" />
+		<View android:background="e0e0e6" android:layout_width="-1" android:layout_height="2px" android:layout_below="false" />
+	</RelativeLayout>
+	<Button android:textSize="18sp" android:textColor="resourceId:0x106000b" android:gravity="0x11" android:id="false" android:background="res/drawable/smssdk_btn_enable.xml" android:layout_width="-1" android:layout_height="45dp" android:layout_marginLeft="20dp" android:layout_marginTop="25dp" android:layout_marginRight="20dp" android:text="提交资料" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto" android:gravity="0x11" android:tag="layout/dialog_account_management_0" android:background="50000" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:tag="binding_1" android:background="res/drawable/bg_circular_white_2.xml" android:layout_width="960mm" android:layout_height="-2">
+		<TextView android:textSize="48mm" android:textColor="000" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="80mm" android:text="Please select an account to enter:" />
+		<androidx.recyclerview.widget.RecyclerView android:layout_gravity="0x11" android:id="false" android:tag="binding_2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40mm" android:layout_above="false" android:layout_below="false" />
+		<LinearLayout android:gravity="0x11" android:orientation="0" android:padding="50mm" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20mm" android:showDividers="0x2">
+			<TextView android:textSize="36mm" android:textColor="666666" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_circular_red_grey.xml" android:visibility="2" android:layout_width="280mm" android:layout_height="80mm" android:layout_marginRight="80mm" android:text="Cancel" android:layout_marginEnd="80mm" />
+			<TextView android:textSize="36mm" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:tag="binding_3" android:background="res/drawable/bg_circular_red_bg.xml" android:layout_width="280mm" android:layout_height="80mm" android:text="Enter the game" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

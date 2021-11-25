@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto" android:orientation="0" android:tag="layout/activity_login_0" android:background="res/drawable/bg_line1.xml" android:paddingTop="80mm" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x1" android:orientation="1" android:background="res/drawable/bg_line1.xml" android:paddingBottom="60mm" android:layout_width="400mm" android:layout_height="-1">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:tag="binding_1" android:background="e5e5e5" android:padding="30mm" android:layout_width="-1" android:layout_height="-2">
+			<ImageView android:id="false" android:layout_width="20mm" android:layout_height="33mm" android:src="res/drawable-xxhdpi-v4/nav_icon_back.png" android:scaleType="1" />
+			<TextView android:textSize="36mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20mm" android:text="Back" android:layout_marginStart="20mm" />
+		</LinearLayout>
+		<TextView android:textSize="46mm" android:textColor="e14852" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="100mm" android:text="Log in" android:layout_below="false" />
+		<ImageView android:background="e14852" android:layout_width="180mm" android:layout_height="10mm" android:layout_marginTop="10mm" />
+	</LinearLayout>
+	<LinearLayout android:gravity="0x11" android:background="res/drawable/bg_line.xml" android:padding="40mm" android:layout_width="-1" android:layout_height="-1">
+		<androidx.core.widget.NestedScrollView android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:gravity="0x10" android:layout_gravity="0x11" android:orientation="1" android:background="dffffff" android:padding="50mm" android:layout_width="1200mm" android:layout_height="-2">
+				<EditText android:textSize="38mm" android:gravity="0x800003" android:tag="binding_2" android:background="res/drawable/bg_circular_white_3.xml" android:padding="30mm" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="30mm" android:singleLine="true" android:imeOptions="0x10000000" android:textAlignment="5" />
+				<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="40mm">
+					<EditText android:textSize="38mm" android:gravity="0x800003" android:id="false" android:tag="binding_3" android:background="res/drawable/bg_circular_white_3.xml" android:padding="30mm" android:layout_width="-1" android:layout_height="-2" android:hint="Password" android:singleLine="true" android:maxLength="20" android:inputType="0x81" android:imeOptions="0x10000000" android:textAlignment="5" />
+					<ImageView android:layout_gravity="0x800015" android:id="false" android:tag="binding_4" android:layout_width="60mm" android:layout_height="40mm" android:layout_marginEnd="40mm" binding:isThrottleFirst="true" />
+				</FrameLayout>
+				<TextView android:textSize="38mm" android:textColor="666666" android:tag="binding_5" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40mm" android:text="Forget password?" />
+				<TextView android:textSize="38mm" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:tag="binding_6" android:background="res/drawable/bg_circular_red.xml" android:padding="30mm" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="60mm" android:text="Log in" />
+				<LinearLayout android:layout_gravity="0x51" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20mm">
+					<TextView android:textSize="38mm" android:textColor="666666" android:tag="binding_7" android:padding="20mm" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="Other login methods" />
+					<TextView android:textSize="38mm" android:textColor="2e99f4" android:tag="binding_8" android:padding="20mm" android:layout_width="-2" android:layout_height="-2" android:text="Register" android:layout_marginStart="20mm" />
+				</LinearLayout>
+			</LinearLayout>
+		</androidx.core.widget.NestedScrollView>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto" android:orientation="0" android:tag="layout/activity_user_center_0" android:background="res/drawable/bg_line1.xml" android:paddingTop="80mm" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:orientation="1" android:background="res/drawable/bg_line1.xml" android:paddingBottom="60mm" android:layout_width="400mm" android:layout_height="-1">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:tag="binding_1" android:background="e5e5e5" android:padding="30mm" android:layout_width="-1" android:layout_height="-2">
+			<ImageView android:id="false" android:layout_width="20mm" android:layout_height="33mm" android:src="res/drawable-xxhdpi-v4/nav_icon_back.png" android:scaleType="1" />
+			<TextView android:textSize="36mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20mm" android:text="Back" android:layout_marginStart="20mm" />
+		</LinearLayout>
+		<TextView android:textSize="38mm" android:textColor="e14852" android:id="false" android:tag="binding_2" android:background="res/drawable/bg_circular_red_border.xml" android:paddingLeft="40mm" android:paddingTop="10mm" android:paddingRight="40mm" android:paddingBottom="10mm" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="50mm" android:text="Log out" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:paddingStart="40mm" android:paddingEnd="40mm" />
+		<TextView android:textSize="38mm" android:textColor="2e99f4" android:gravity="0x11" android:id="false" android:tag="binding_3" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="30mm" android:text="Add/Register an account" android:layout_above="false" android:paddingStart="10mm" android:paddingEnd="10mm" />
+		<RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_above="false" android:layout_below="false">
+			<androidx.recyclerview.widget.RecyclerView android:id="false" android:tag="binding_4" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="40mm" android:layout_centerVertical="true" />
+			<LinearLayout android:gravity="0x11" android:orientation="1" android:tag="binding_5" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="40mm" android:layout_centerInParent="true">
+				<ImageView android:layout_width="150mm" android:layout_height="150mm" android:src="res/drawable-xxhdpi-v4/image_user_nomal.png" />
+				<TextView android:textSize="30mm" android:textColor="666666" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5mm" android:text="Add account" />
+			</LinearLayout>
+		</RelativeLayout>
+	</RelativeLayout>
+	<FrameLayout android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:background="res/drawable/bg_line.xml" android:padding="20mm" android:layout_width="-1" android:layout_height="-1">
+			<RelativeLayout android:tag="binding_6" android:background="res/drawable/bg_circular_white_3.xml" android:padding="20mm" android:visibility="2" android:layout_width="0mm" android:layout_height="280mm" android:layout_margin="20mm" android:layout_weight="{4:1065353216}">
+				<ImageView android:id="false" android:background="res/drawable-xxhdpi-v4/center_icon_archive.png" android:layout_width="100mm" android:layout_height="100mm" android:layout_centerVertical="true" />
+				<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" android:layout_marginStart="20mm" android:layout_marginEnd="20mm" android:layout_toEndOf="false">
+					<TextView android:textSize="38mm" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Save" />
+					<TextView android:textSize="30mm" android:textColor="e6000" android:layout_width="-2" android:layout_height="-2" android:text="Enter game via saves Backup/Restore Backup" />
+				</LinearLayout>
+			</RelativeLayout>
+			<RelativeLayout android:tag="binding_7" android:background="res/drawable/bg_circular_white_3.xml" android:padding="20mm" android:layout_width="0mm" android:layout_height="280mm" android:layout_margin="20mm" android:layout_weight="{4:1065353216}">
+				<ImageView android:id="false" android:background="res/drawable-xxhdpi-v4/center_icon_language.png" android:layout_width="100mm" android:layout_height="100mm" android:layout_centerVertical="true" />
+				<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" android:layout_marginStart="20mm" android:layout_marginEnd="20mm" android:layout_toEndOf="false">
+					<TextView android:textSize="38mm" android:textColor="000" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Change language" />
+					<TextView android:textSize="30mm" android:textColor="e6000" android:layout_width="-2" android:layout_height="-2" android:text="Supprot Chinese, English and Japanese" />
+				</LinearLayout>
+			</RelativeLayout>
+			<RelativeLayout android:tag="binding_8" android:background="res/drawable/bg_circular_white_3.xml" android:padding="20mm" android:layout_width="0mm" android:layout_height="280mm" android:layout_margin="20mm" android:layout_weight="{4:1065353216}">
+				<ImageView android:id="false" android:background="res/drawable-xxhdpi-v4/center_icon_update.png" android:layout_width="100mm" android:layout_height="100mm" android:layout_centerVertical="true" />
+				<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" android:layout_marginStart="20mm" android:layout_marginEnd="20mm" android:layout_toEndOf="false">
+					<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+						<TextView android:textSize="38mm" android:textColor="000" android:layout_width="0dp" android:layout_height="-2" android:text="Update" android:layout_weight="{4:1065353216}" />
+						<ImageView android:tag="binding_9" android:layout_width="20mm" android:layout_height="20mm" android:layout_marginLeft="10mm" android:src="res/drawable-xxhdpi-v4/ic_red_meg_poi.png" android:scaleType="1" android:layout_marginStart="10mm" />
+					</LinearLayout>
+					<TextView android:textSize="30mm" android:textColor="e6000" android:tag="binding_10" android:layout_width="-2" android:layout_height="-2" />
+				</LinearLayout>
+			</RelativeLayout>
+		</LinearLayout>
+		<LinearLayout android:layout_gravity="0x51" android:tag="binding_11" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="50mm">
+			<TextView android:textSize="38mm" android:textColor="4f5756" android:padding="20mm" android:layout_width="-2" android:layout_height="-2" android:text="Privacy agreement" />
+			<View android:layout_gravity="0x10" android:background="4f5756" android:layout_width="1mm" android:layout_height="34mm" />
+			<TextView android:textSize="38mm" android:textColor="4f5756" android:padding="20mm" android:layout_width="-2" android:layout_height="-2" android:text="User agreement" />
+		</LinearLayout>
+		<ImageView android:layout_gravity="0x800035" android:tag="binding_12" android:layout_width="80mm" android:layout_height="80mm" android:layout_margin="80mm" android:src="res/drawable-xxhdpi-v4/center_icon_theme.png" />
+	</FrameLayout>
+</LinearLayout>

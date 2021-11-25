@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/activity_filemanager_0" android:background="50000" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1">
+	<ImageView android:tag="binding_1" android:background="res/drawable-xxhdpi-v4/pop_icon_close.png" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginLeft="5dp" android:scaleType="1" android:layout_marginStart="5dp" app:layout_constraintLeft_toRightOf="false" app:layout_constraintStart_toEndOf="false" app:layout_constraintTop_toTopOf="0" />
+	<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/bg_circular_white_2.xml" android:paddingLeft="25dp" android:paddingRight="25dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="140dp" android:layout_marginRight="140dp" android:layout_marginBottom="20dp" android:paddingStart="25dp" android:paddingEnd="25dp" android:layout_marginStart="140dp" android:layout_marginEnd="140dp">
+		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1065353216}">
+			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+				<View android:background="dddddd" android:layout_width="-1" android:layout_height="1dp" />
+			</LinearLayout>
+			<RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_below="false">
+				<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+				<LinearLayout android:gravity="0x11" android:orientation="1" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="30dp">
+					<ImageView android:layout_gravity="0x11" android:layout_width="60dp" android:layout_height="45dp" android:src="res/drawable-xxhdpi-v4/pop_icon_folder.png" android:scaleType="1" />
+					<TextView android:textSize="14sp" android:textColor="999999" android:layout_gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="6dp" android:text="There are no documents" />
+				</LinearLayout>
+			</RelativeLayout>
+		</RelativeLayout>
+		<TextView android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x1" android:tag="binding_2" android:background="res/drawable/bg_circular_red_bg.xml" android:layout_width="100dp" android:layout_height="30dp" android:layout_marginTop="5dp" android:text="Sure" />
+	</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

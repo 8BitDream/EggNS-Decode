@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="res/drawable/item_selector_filemanager.xml" android:paddingLeft="2dp" android:paddingTop="8dp" android:paddingRight="2dp" android:paddingBottom="8dp" android:layout_width="-2" android:layout_height="-2" android:paddingStart="2dp" android:paddingEnd="2dp">
+	<TextView android:textSize="16sp" android:textColor="666666" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" />
+</RelativeLayout>
