@@ -15,7 +15,7 @@ import java.io.File;
 public final class A extends AppComponentFactory {
     private AppComponentFactory acf = null;
     private AppComponentFactory orignACF = null;
-    private String orignAppName = "io.switchdroid.NSApplication";
+    private String orignAppName = "com.xiaoji.gamesirnsemulator.emu.NSApplication";
     private String orignName = "androidx.core.app.CoreComponentFactory";
     private String packageName = "com.xiaoji.gamesirnsemulator";
     private boolean supportInstantiateClassLoader = false;

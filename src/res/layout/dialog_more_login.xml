@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="e5e5e5" android:layout_width="-1" android:layout_height="-1">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="f1f1f2" android:layout_width="-1" android:layout_height="-1">
 	<LinearLayout android:gravity="0x11" android:orientation="0" android:background="ffffff" android:layout_width="-1" android:layout_height="-2">
 		<ImageView android:layout_width="60mm" android:layout_height="50mm" android:src="res/drawable-xxhdpi-v4/pop_icon_wechat.png" />
 		<TextView android:textSize="46mm" android:textColor="000" android:paddingTop="40mm" android:paddingBottom="40mm" android:layout_width="400mm" android:layout_height="-2" android:text="Wechat" android:paddingStart="10mm" />

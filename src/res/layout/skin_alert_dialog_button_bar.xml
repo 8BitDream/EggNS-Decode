@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="false" android:layout_width="-1" android:layout_height="-2" android:fillViewport="true" style="{2:2130903105}">
 	<androidx.appcompat.widget.ButtonBarLayout android:gravity="0x50" android:orientation="0" android:paddingLeft="12dp" android:paddingTop="4dp" android:paddingRight="12dp" android:paddingBottom="4dp" android:layout_width="-1" android:layout_height="-2">
-		<Button android:textColor="{2:2130903416}" android:id="resourceId:0x102001b" android:layout_width="-2" android:layout_height="-2" style="{2:2130903103}" />
+		<Button android:textColor="{2:2130903425}" android:id="resourceId:0x102001b" android:layout_width="-2" android:layout_height="-2" style="{2:2130903103}" />
 		<androidx.legacy.widget.Space android:id="false" android:visibility="1" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
-		<Button android:textColor="{2:2130903415}" android:id="resourceId:0x102001a" android:layout_width="-2" android:layout_height="-2" style="{2:2130903102}" />
-		<Button android:textColor="{2:2130903417}" android:id="resourceId:0x1020019" android:layout_width="-2" android:layout_height="-2" style="{2:2130903104}" />
+		<Button android:textColor="{2:2130903424}" android:id="resourceId:0x102001a" android:layout_width="-2" android:layout_height="-2" style="{2:2130903102}" />
+		<Button android:textColor="{2:2130903426}" android:id="resourceId:0x1020019" android:layout_width="-2" android:layout_height="-2" style="{2:2130903104}" />
 	</androidx.appcompat.widget.ButtonBarLayout>
 </ScrollView>

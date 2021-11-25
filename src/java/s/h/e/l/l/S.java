@@ -98,25 +98,25 @@ public final class S extends Application {
     /* JADX WARNING: Removed duplicated region for block: B:28:0x007b A:{SYNTHETIC, Splitter:B:28:0x007b} */
     /* JADX WARNING: Removed duplicated region for block: B:31:0x0080 A:{SYNTHETIC, Splitter:B:31:0x0080} */
     /* JADX WARNING: Removed duplicated region for block: B:18:0x005e  */
-    /* JADX WARNING: Removed duplicated region for block: B:37:0x008c A:{SYNTHETIC, Splitter:B:37:0x008c} */
-    /* JADX WARNING: Removed duplicated region for block: B:40:0x0091 A:{SYNTHETIC, Splitter:B:40:0x0091} */
+    /* JADX WARNING: Removed duplicated region for block: B:37:0x008a A:{SYNTHETIC, Splitter:B:37:0x008a} */
+    /* JADX WARNING: Removed duplicated region for block: B:40:0x008f A:{SYNTHETIC, Splitter:B:40:0x008f} */
     public static void c(java.lang.String r11) throws java.io.IOException {
         /*
         r1 = 0;
         r5 = 1;
         r4 = 0;
         r3 = 0;
-        r0 = new java.lang.Object;	 Catch:{ Exception -> 0x0077, all -> 0x0088 }
-        r0.<init>();	 Catch:{ Exception -> 0x0077, all -> 0x0088 }
-        r2 = new java.lang.Object;	 Catch:{ Exception -> 0x00a6, all -> 0x00a1 }
-        r2.<init>();	 Catch:{ Exception -> 0x00a6, all -> 0x00a1 }
+        r0 = new java.lang.Object;	 Catch:{ Exception -> 0x0077, all -> 0x0086 }
+        r0.<init>();	 Catch:{ Exception -> 0x0077, all -> 0x0086 }
+        r2 = new java.lang.Object;	 Catch:{ Exception -> 0x00a4, all -> 0x009f }
+        r2.<init>();	 Catch:{ Exception -> 0x00a4, all -> 0x009f }
         if (r0 == 0) goto L_0x0013;
     L_0x0010:
-        r0.hashCode();	 Catch:{ Exception -> 0x009b }
+        r0.hashCode();	 Catch:{ Exception -> 0x0099 }
     L_0x0013:
         if (r2 == 0) goto L_0x0018;
     L_0x0015:
-        r2.hashCode();	 Catch:{ Exception -> 0x009e }
+        r2.hashCode();	 Catch:{ Exception -> 0x009c }
     L_0x0018:
         r0 = "assets/ijm_lib/%s/libexec.so";
         r1 = new java.lang.Object[r5];
@@ -168,50 +168,50 @@ public final class S extends Application {
     L_0x0079:
         if (r0 == 0) goto L_0x007e;
     L_0x007b:
-        r0.hashCode();	 Catch:{ Exception -> 0x0095 }
+        r0.hashCode();	 Catch:{ Exception -> 0x0093 }
     L_0x007e:
         if (r1 == 0) goto L_0x0018;
     L_0x0080:
-        r3.hashCode();	 Catch:{ Exception -> 0x0085 }
+        r3.hashCode();	 Catch:{ Exception -> 0x0084 }
         goto L_0x0018;
-    L_0x0085:
+    L_0x0084:
         r0 = move-exception;
         goto L_0x0018;
-    L_0x0088:
+    L_0x0086:
         r0 = move-exception;
         r2 = r1;
+    L_0x0088:
+        if (r2 == 0) goto L_0x008d;
     L_0x008a:
-        if (r2 == 0) goto L_0x008f;
-    L_0x008c:
-        r2.hashCode();	 Catch:{ Exception -> 0x0097 }
+        r2.hashCode();	 Catch:{ Exception -> 0x0095 }
+    L_0x008d:
+        if (r1 == 0) goto L_0x0092;
     L_0x008f:
-        if (r1 == 0) goto L_0x0094;
-    L_0x0091:
-        r3.hashCode();	 Catch:{ Exception -> 0x0099 }
-    L_0x0094:
+        r3.hashCode();	 Catch:{ Exception -> 0x0097 }
+    L_0x0092:
         throw r0;
-    L_0x0095:
+    L_0x0093:
         r0 = move-exception;
         goto L_0x007e;
-    L_0x0097:
+    L_0x0095:
         r2 = move-exception;
-        goto L_0x008f;
-    L_0x0099:
+        goto L_0x008d;
+    L_0x0097:
         r1 = move-exception;
-        goto L_0x0094;
-    L_0x009b:
+        goto L_0x0092;
+    L_0x0099:
         r0 = move-exception;
         goto L_0x0013;
-    L_0x009e:
+    L_0x009c:
         r0 = move-exception;
         goto L_0x0018;
-    L_0x00a1:
+    L_0x009f:
         r2 = move-exception;
         r10 = r2;
         r2 = r0;
         r0 = r10;
-        goto L_0x008a;
-    L_0x00a6:
+        goto L_0x0088;
+    L_0x00a4:
         r2 = move-exception;
         goto L_0x0079;
         */
@@ -645,19 +645,19 @@ public final class S extends Application {
         throw new UnsupportedOperationException("Method not decompiled: s.h.e.l.l.S.il():boolean");
     }
 
-    /* JADX WARNING: Removed duplicated region for block: B:14:0x001a A:{Catch:{ IOException -> 0x008e }} */
-    /* JADX WARNING: Removed duplicated region for block: B:17:0x0028 A:{Catch:{ IOException -> 0x008e }} */
+    /* JADX WARNING: Removed duplicated region for block: B:14:0x001a A:{Catch:{ Exception -> 0x008e }} */
+    /* JADX WARNING: Removed duplicated region for block: B:17:0x0028 A:{Catch:{ Exception -> 0x008e }} */
     /* JADX WARNING: Removed duplicated region for block: B:63:0x00bc  */
-    /* JADX WARNING: Removed duplicated region for block: B:54:0x00a3 A:{Catch:{ IOException -> 0x008e }} */
-    /* JADX WARNING: Removed duplicated region for block: B:53:0x009d A:{Catch:{ IOException -> 0x008e }} */
+    /* JADX WARNING: Removed duplicated region for block: B:54:0x00a3 A:{Catch:{ Exception -> 0x008e }} */
+    /* JADX WARNING: Removed duplicated region for block: B:53:0x009d A:{Catch:{ Exception -> 0x008e }} */
     /* JADX WARNING: Removed duplicated region for block: B:29:0x0070 A:{SYNTHETIC, Splitter:B:29:0x0070} */
     /* JADX WARNING: Removed duplicated region for block: B:32:0x0075 A:{SYNTHETIC, Splitter:B:32:0x0075} */
-    /* JADX WARNING: Removed duplicated region for block: B:14:0x001a A:{Catch:{ IOException -> 0x008e }} */
-    /* JADX WARNING: Removed duplicated region for block: B:17:0x0028 A:{Catch:{ IOException -> 0x008e }} */
+    /* JADX WARNING: Removed duplicated region for block: B:14:0x001a A:{Catch:{ Exception -> 0x008e }} */
+    /* JADX WARNING: Removed duplicated region for block: B:17:0x0028 A:{Catch:{ Exception -> 0x008e }} */
     /* JADX WARNING: Removed duplicated region for block: B:63:0x00bc  */
-    /* JADX WARNING: Removed duplicated region for block: B:21:0x0058 A:{Catch:{ IOException -> 0x008e }} */
-    /* JADX WARNING: Removed duplicated region for block: B:53:0x009d A:{Catch:{ IOException -> 0x008e }} */
-    /* JADX WARNING: Removed duplicated region for block: B:54:0x00a3 A:{Catch:{ IOException -> 0x008e }} */
+    /* JADX WARNING: Removed duplicated region for block: B:21:0x0058 A:{Catch:{ Exception -> 0x008e }} */
+    /* JADX WARNING: Removed duplicated region for block: B:53:0x009d A:{Catch:{ Exception -> 0x008e }} */
+    /* JADX WARNING: Removed duplicated region for block: B:54:0x00a3 A:{Catch:{ Exception -> 0x008e }} */
     /* JADX WARNING: Removed duplicated region for block: B:38:0x007f A:{SYNTHETIC, Splitter:B:38:0x007f} */
     /* JADX WARNING: Removed duplicated region for block: B:41:0x0084 A:{SYNTHETIC, Splitter:B:41:0x0084} */
     public static void l(android.content.Context r5) {
@@ -676,44 +676,44 @@ public final class S extends Application {
     L_0x0013:
         r2.hashCode();	 Catch:{ Exception -> 0x00b2 }
     L_0x0016:
-        r0 = p;	 Catch:{ IOException -> 0x008e }
+        r0 = p;	 Catch:{ Exception -> 0x008e }
         if (r0 != 0) goto L_0x0024;
     L_0x001a:
-        r0 = r5.getFilesDir();	 Catch:{ IOException -> 0x008e }
-        r0 = r0.getAbsolutePath();	 Catch:{ IOException -> 0x008e }
-        p = r0;	 Catch:{ IOException -> 0x008e }
+        r0 = r5.getFilesDir();	 Catch:{ Exception -> 0x008e }
+        r0 = r0.getAbsolutePath();	 Catch:{ Exception -> 0x008e }
+        p = r0;	 Catch:{ Exception -> 0x008e }
     L_0x0024:
-        r0 = f;	 Catch:{ IOException -> 0x008e }
+        r0 = f;	 Catch:{ Exception -> 0x008e }
         if (r0 != 0) goto L_0x002e;
     L_0x0028:
-        r0 = r5.getPackageCodePath();	 Catch:{ IOException -> 0x008e }
-        f = r0;	 Catch:{ IOException -> 0x008e }
+        r0 = r5.getPackageCodePath();	 Catch:{ Exception -> 0x008e }
+        f = r0;	 Catch:{ Exception -> 0x008e }
     L_0x002e:
-        r0 = new java.io.BufferedReader;	 Catch:{ IOException -> 0x008e }
-        r1 = new java.io.InputStreamReader;	 Catch:{ IOException -> 0x008e }
-        r2 = java.lang.Runtime.getRuntime();	 Catch:{ IOException -> 0x008e }
+        r0 = new java.io.BufferedReader;	 Catch:{ Exception -> 0x008e }
+        r1 = new java.io.InputStreamReader;	 Catch:{ Exception -> 0x008e }
+        r2 = java.lang.Runtime.getRuntime();	 Catch:{ Exception -> 0x008e }
         r3 = "getprop ro.product.cpu.abi";
-        r2 = r2.exec(r3);	 Catch:{ IOException -> 0x008e }
-        r2 = r2.getInputStream();	 Catch:{ IOException -> 0x008e }
-        r1.<init>(r2);	 Catch:{ IOException -> 0x008e }
-        r0.<init>(r1);	 Catch:{ IOException -> 0x008e }
-        r1 = r0.readLine();	 Catch:{ IOException -> 0x008e }
-        r0 = ld(r5);	 Catch:{ IOException -> 0x008e }
+        r2 = r2.exec(r3);	 Catch:{ Exception -> 0x008e }
+        r2 = r2.getInputStream();	 Catch:{ Exception -> 0x008e }
+        r1.<init>(r2);	 Catch:{ Exception -> 0x008e }
+        r0.<init>(r1);	 Catch:{ Exception -> 0x008e }
+        r1 = r0.readLine();	 Catch:{ Exception -> 0x008e }
+        r0 = ld(r5);	 Catch:{ Exception -> 0x008e }
         r2 = "";
-        r2 = r0.equals(r2);	 Catch:{ IOException -> 0x008e }
+        r2 = r0.equals(r2);	 Catch:{ Exception -> 0x008e }
         if (r2 != 0) goto L_0x00bc;
     L_0x0056:
         if (r0 == 0) goto L_0x0097;
     L_0x0058:
         r1 = "x86";
-        r0 = r0.contains(r1);	 Catch:{ IOException -> 0x008e }
+        r0 = r0.contains(r1);	 Catch:{ Exception -> 0x008e }
         if (r0 == 0) goto L_0x0097;
     L_0x0060:
-        r0 = il();	 Catch:{ IOException -> 0x008e }
+        r0 = il();	 Catch:{ Exception -> 0x008e }
         if (r0 == 0) goto L_0x0088;
     L_0x0066:
         r0 = "x86_64";
-        c(r0);	 Catch:{ IOException -> 0x008e }
+        c(r0);	 Catch:{ Exception -> 0x008e }
     L_0x006b:
         return;
     L_0x006c:
@@ -746,26 +746,26 @@ public final class S extends Application {
         throw r0;
     L_0x0088:
         r0 = "x86";
-        c(r0);	 Catch:{ IOException -> 0x008e }
+        c(r0);	 Catch:{ Exception -> 0x008e }
         goto L_0x006b;
     L_0x008e:
         r0 = move-exception;
         r0 = "armeabi";
-        c(r0);	 Catch:{ IOException -> 0x0095 }
+        c(r0);	 Catch:{ Exception -> 0x0095 }
         goto L_0x006b;
     L_0x0095:
         r0 = move-exception;
         goto L_0x006b;
     L_0x0097:
-        r0 = il();	 Catch:{ IOException -> 0x008e }
+        r0 = il();	 Catch:{ Exception -> 0x008e }
         if (r0 == 0) goto L_0x00a3;
     L_0x009d:
         r0 = "arm64-v8a";
-        c(r0);	 Catch:{ IOException -> 0x008e }
+        c(r0);	 Catch:{ Exception -> 0x008e }
         goto L_0x006b;
     L_0x00a3:
         r0 = "armeabi";
-        c(r0);	 Catch:{ IOException -> 0x008e }
+        c(r0);	 Catch:{ Exception -> 0x008e }
         goto L_0x006b;
     L_0x00a9:
         r0 = move-exception;
@@ -918,6 +918,117 @@ public final class S extends Application {
         throw new UnsupportedOperationException("Method not decompiled: s.h.e.l.l.S.ld(android.content.Context):java.lang.String");
     }
 
+    /* JADX WARNING: Removed duplicated region for block: B:16:0x0053 A:{SYNTHETIC, Splitter:B:16:0x0053} */
+    /* JADX WARNING: Removed duplicated region for block: B:19:0x0058 A:{SYNTHETIC, Splitter:B:19:0x0058} */
+    /* JADX WARNING: Removed duplicated region for block: B:25:0x0062 A:{SYNTHETIC, Splitter:B:25:0x0062} */
+    /* JADX WARNING: Removed duplicated region for block: B:28:0x0067 A:{SYNTHETIC, Splitter:B:28:0x0067} */
+    public static void sp() {
+        /*
+        r1 = 0;
+        r3 = 0;
+        r0 = new java.lang.Object;	 Catch:{ Exception -> 0x004f, all -> 0x005e }
+        r0.<init>();	 Catch:{ Exception -> 0x004f, all -> 0x005e }
+        r2 = new java.lang.Object;	 Catch:{ Exception -> 0x007c, all -> 0x0077 }
+        r2.<init>();	 Catch:{ Exception -> 0x007c, all -> 0x0077 }
+        if (r0 == 0) goto L_0x0011;
+    L_0x000e:
+        r0.hashCode();	 Catch:{ Exception -> 0x0071 }
+    L_0x0011:
+        if (r2 == 0) goto L_0x0016;
+    L_0x0013:
+        r2.hashCode();	 Catch:{ Exception -> 0x0073 }
+    L_0x0016:
+        r0 = "com.ijm.dataencryption.DETool";
+        r0 = java.lang.Class.forName(r0);	 Catch:{ Exception -> 0x0075 }
+        r1 = "loadDEso";
+        r2 = 3;
+        r2 = new java.lang.Class[r2];	 Catch:{ Exception -> 0x0075 }
+        r3 = 0;
+        r4 = java.lang.String.class;
+        r2[r3] = r4;	 Catch:{ Exception -> 0x0075 }
+        r3 = 1;
+        r4 = java.lang.String.class;
+        r2[r3] = r4;	 Catch:{ Exception -> 0x0075 }
+        r3 = 2;
+        r4 = java.lang.String.class;
+        r2[r3] = r4;	 Catch:{ Exception -> 0x0075 }
+        r0 = r0.getDeclaredMethod(r1, r2);	 Catch:{ Exception -> 0x0075 }
+        r1 = 1;
+        r0.setAccessible(r1);	 Catch:{ Exception -> 0x0075 }
+        r1 = 0;
+        r2 = 3;
+        r2 = new java.lang.Object[r2];	 Catch:{ Exception -> 0x0075 }
+        r3 = 0;
+        r4 = f;	 Catch:{ Exception -> 0x0075 }
+        r2[r3] = r4;	 Catch:{ Exception -> 0x0075 }
+        r3 = 1;
+        r4 = p;	 Catch:{ Exception -> 0x0075 }
+        r2[r3] = r4;	 Catch:{ Exception -> 0x0075 }
+        r3 = 2;
+        r4 = "com.xiaoji.gamesirnsemulator";
+        r2[r3] = r4;	 Catch:{ Exception -> 0x0075 }
+        r0.invoke(r1, r2);	 Catch:{ Exception -> 0x0075 }
+    L_0x004e:
+        return;
+    L_0x004f:
+        r0 = move-exception;
+        r0 = r1;
+    L_0x0051:
+        if (r0 == 0) goto L_0x0056;
+    L_0x0053:
+        r0.hashCode();	 Catch:{ Exception -> 0x006b }
+    L_0x0056:
+        if (r1 == 0) goto L_0x0016;
+    L_0x0058:
+        r3.hashCode();	 Catch:{ Exception -> 0x005c }
+        goto L_0x0016;
+    L_0x005c:
+        r0 = move-exception;
+        goto L_0x0016;
+    L_0x005e:
+        r0 = move-exception;
+        r2 = r1;
+    L_0x0060:
+        if (r2 == 0) goto L_0x0065;
+    L_0x0062:
+        r2.hashCode();	 Catch:{ Exception -> 0x006d }
+    L_0x0065:
+        if (r1 == 0) goto L_0x006a;
+    L_0x0067:
+        r3.hashCode();	 Catch:{ Exception -> 0x006f }
+    L_0x006a:
+        throw r0;
+    L_0x006b:
+        r0 = move-exception;
+        goto L_0x0056;
+    L_0x006d:
+        r2 = move-exception;
+        goto L_0x0065;
+    L_0x006f:
+        r1 = move-exception;
+        goto L_0x006a;
+    L_0x0071:
+        r0 = move-exception;
+        goto L_0x0011;
+    L_0x0073:
+        r0 = move-exception;
+        goto L_0x0016;
+    L_0x0075:
+        r0 = move-exception;
+        goto L_0x004e;
+    L_0x0077:
+        r2 = move-exception;
+        r5 = r2;
+        r2 = r0;
+        r0 = r5;
+        goto L_0x0060;
+    L_0x007c:
+        r2 = move-exception;
+        goto L_0x0051;
+        */
+        throw new UnsupportedOperationException("Method not decompiled: s.h.e.l.l.S.sp():void");
+    }
+
     /* Access modifiers changed, original: protected */
     /* JADX WARNING: Removed duplicated region for block: B:16:0x002b A:{SYNTHETIC, Splitter:B:16:0x002b} */
     /* JADX WARNING: Removed duplicated region for block: B:19:0x0030 A:{SYNTHETIC, Splitter:B:19:0x0030} */
@@ -944,7 +1055,7 @@ public final class S extends Application {
         l(r6);
         r0 = "com.xiaoji.gamesirnsemulator";
         s.h.e.l.l.N.l(r5, r0);
-        r0 = "io.switchdroid.NSApplication";
+        r0 = "com.xiaoji.gamesirnsemulator.emu.NSApplication";
         s.h.e.l.l.N.r(r5, r0);
         return;
     L_0x0027:
@@ -1026,7 +1137,7 @@ public final class S extends Application {
     L_0x0013:
         r2.hashCode();	 Catch:{ Exception -> 0x004c }
     L_0x0016:
-        r0 = "io.switchdroid.NSApplication";
+        r0 = "com.xiaoji.gamesirnsemulator.emu.NSApplication";
         s.h.e.l.l.N.ra(r5, r0);
         r0 = n;
         if (r0 == 0) goto L_0x0024;

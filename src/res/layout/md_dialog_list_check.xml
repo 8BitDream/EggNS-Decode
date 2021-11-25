@@ -8,7 +8,7 @@
 		<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
 			<androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="33554432" android:id="false" android:paddingTop="8dp" android:paddingBottom="8dp" android:scrollbars="0x200" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" />
 		</FrameLayout>
-		<CheckBox android:id="false" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" />
+		<CheckBox android:gravity="0x800013" android:layout_gravity="0x800003" android:id="false" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" />
 	</LinearLayout>
 	<include layout="res/layout/md_stub_actionbuttons.xml" />
 </com.afollestad.materialdialogs.internal.MDRootLayout>

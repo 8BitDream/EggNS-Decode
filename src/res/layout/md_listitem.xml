@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x800013" android:orientation="0" android:background="{2:2130903403}" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:minHeight="48dp">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x800013" android:orientation="0" android:background="{2:2130903412}" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:minHeight="48dp">
 	<TextView android:textSize="16sp" android:gravity="0x10" android:layout_gravity="0x800003" android:id="false" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" android:layout_marginStart="24dp" android:layout_marginEnd="24dp" />
 </LinearLayout>

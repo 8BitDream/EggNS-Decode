@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x11" android:orientation="1" android:background="res/drawable/bg_circular_white_2.xml" android:layout_width="960mm" android:layout_height="300mm">
+	<FrameLayout android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+		<ImageView android:layout_width="33mm" android:layout_height="33mm" android:layout_margin="50mm" android:src="res/drawable-xxhdpi-v4/input_del.png" />
+	</FrameLayout>
+	<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_margin="50mm" android:layout_centerInParent="true" android:showDividers="0x2">
+		<TextView android:textSize="36mm" android:textColor="f4364c" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_circular_red_grey_2.xml" android:layout_width="280mm" android:layout_height="80mm" android:layout_marginRight="80mm" android:text="Cancel" android:maxLines="1" android:layout_marginEnd="80mm" android:autoSizeTextType="1" android:autoSizeStepGranularity="1mm" android:autoSizeMinTextSize="10mm" android:autoSizeMaxTextSize="36mm" />
+		<TextView android:textSize="36mm" android:textColor="f4364c" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_circular_red_grey_2.xml" android:layout_width="280mm" android:layout_height="80mm" android:text="Sure" android:maxLines="1" android:autoSizeTextType="1" android:autoSizeStepGranularity="1mm" android:autoSizeMinTextSize="10mm" android:focusedByDefault="true" android:autoSizeMaxTextSize="36mm" />
+	</LinearLayout>
+</RelativeLayout>

@@ -7,7 +7,7 @@
 			<EditText android:textSize="16sp" android:id="resourceId:0x1020009" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="-2dp" android:layout_marginRight="-2dp" android:layout_marginBottom="1dp" />
 			<TextView android:textSize="12sp" android:gravity="0x800005" android:id="false" android:paddingRight="4dp" android:layout_width="-2" android:layout_height="-2" android:minWidth="48dp" android:layout_below="resourceId:0x1020009" android:layout_alignRight="resourceId:0x1020009" android:fontFamily="sans-serif" android:textAlignment="6" android:paddingEnd="4dp" android:layout_alignEnd="resourceId:0x1020009" />
 		</RelativeLayout>
-		<CheckBox android:id="false" android:focusable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" />
+		<CheckBox android:gravity="0x800003" android:layout_gravity="0x800013" android:id="false" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" />
 	</LinearLayout>
 	<include layout="res/layout/md_stub_actionbuttons.xml" />
 </com.afollestad.materialdialogs.internal.MDRootLayout>
