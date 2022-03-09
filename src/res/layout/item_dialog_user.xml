@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto" android:gravity="0x11" android:orientation="1" android:tag="layout/item_dialog_user_0" android:layout_width="-2" android:layout_height="-2">
-	<LinearLayout android:gravity="0x11" android:orientation="1" android:padding="10mm" android:layout_width="170mm" android:layout_height="230mm" android:layout_marginLeft="20mm" android:layout_marginRight="20mm" android:layout_marginStart="20mm" android:layout_marginEnd="20mm">
-		<FrameLayout android:layout_width="-2" android:layout_height="-2">
-			<ImageView android:tag="binding_1" android:layout_width="-2" android:layout_height="-2" android:scaleType="1" />
-		</FrameLayout>
-		<TextView android:textSize="30mm" android:textColor="666666" android:tag="binding_2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="15mm" />
-	</LinearLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto" android:gravity="0x10" android:orientation="0" android:tag="layout/item_dialog_user_0" android:paddingTop="16mm" android:paddingBottom="16mm" android:layout_width="-1" android:layout_height="-2" android:paddingStart="46mm" android:paddingEnd="46mm">
+	<ImageView android:tag="binding_1" android:layout_width="68mm" android:layout_height="68mm" android:scaleType="1" />
+	<TextView android:textSize="30mm" android:textColor="666666" android:tag="binding_2" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="15mm" />
 </LinearLayout>

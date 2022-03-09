@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:background="d4e0e5" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:id="false" android:background="086dc" android:layout_width="-1" android:layout_height="54dp">
+		<TextView android:textSize="18sp" android:textColor="ffffff" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="" android:layout_centerInParent="true" />
+		<RelativeLayout android:id="false" android:visibility="0" android:layout_width="50dp" android:layout_height="-1" android:onClick="onCancel">
+			<ImageButton android:background="res/drawable/umeng_socialize_back_icon.png" android:clickable="false" android:layout_width="12dp" android:layout_height="20dp" android:layout_marginLeft="15dp" android:scaleType="5" android:layout_centerVertical="true" />
+		</RelativeLayout>
+		<TextView android:textSize="15sp" android:textColor="ffffff" android:gravity="0x10" android:id="false" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="-2" android:layout_height="-1" android:text="分享" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+	</RelativeLayout>
+	<EditText android:textSize="15sp" android:textColor="000" android:gravity="0x30" android:id="false" android:background="ffffff" android:paddingLeft="15dp" android:paddingTop="8dp" android:paddingRight="15dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="180dp" android:bufferType="1" android:hint="编辑分享内容" android:layout_below="false" android:lineSpacingExtra="3dp" />
+	<TextView android:textSize="14sp" android:textColor="98999b" android:gravity="0x5" android:id="false" android:background="ffffff" android:paddingRight="15dp" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:layout_below="false" android:layout_alignRight="false" />
+	<RelativeLayout android:id="false" android:background="f2f5f6" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_below="false">
+		<RelativeLayout android:id="false" android:background="res/drawable/umeng_socialize_edit_bg.xml" android:layout_width="62dp" android:layout_height="62dp" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginBottom="15dp" android:layout_centerVertical="true">
+			<ImageView android:id="false" android:layout_width="60dp" android:layout_height="60dp" android:src="2c3035" android:layout_centerInParent="true" />
+		</RelativeLayout>
+		<TextView android:textSize="14sp" android:textColor="575a5c" android:id="false" android:visibility="2" android:layout_width="280dp" android:layout_height="-2" android:layout_marginLeft="40dp" android:layout_marginTop="20dp" android:singleLine="true" android:layout_toRightOf="false" />
+		<ImageView android:id="false" android:background="res/drawable/umeng_socialize_delete.png" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginTop="-10dp" android:layout_marginRight="-10dp" android:layout_alignTop="false" android:layout_alignRight="false" />
+	</RelativeLayout>
+</RelativeLayout>

@@ -5,26 +5,27 @@
 			<ImageView android:id="false" android:layout_width="20mm" android:layout_height="33mm" android:src="res/drawable-xxhdpi-v4/nav_icon_back.png" android:scaleType="1" />
 			<TextView android:textSize="36mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20mm" android:text="Back" android:layout_marginStart="20mm" />
 		</LinearLayout>
-		<TextView android:textSize="46mm" android:textColor="res/color/item_color_selector.xml" android:tag="binding_2" android:background="res/drawable/item_selector.xml" android:paddingBottom="20mm" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="100mm" android:text="Not backed up" android:layout_below="false" android:paddingStart="20mm" android:paddingEnd="20mm" />
-		<TextView android:textSize="46mm" android:textColor="res/color/item_color_selector.xml" android:tag="binding_3" android:background="res/drawable/item_selector.xml" android:paddingBottom="20mm" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="100mm" android:text="Backed up" android:layout_below="false" android:paddingStart="20mm" android:paddingEnd="20mm" />
+		<TextView android:textSize="38mm" android:textColor="res/color/item_color_selector.xml" android:tag="binding_2" android:background="res/drawable/item_selector.xml" android:paddingBottom="20mm" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="100mm" android:text="Local Storage" android:layout_below="false" android:paddingStart="20mm" android:paddingEnd="20mm" />
+		<TextView android:textSize="38mm" android:textColor="res/color/item_color_selector.xml" android:tag="binding_3" android:background="res/drawable/item_selector.xml" android:paddingBottom="20mm" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="100mm" android:text="Cloud Storage" android:layout_below="false" android:paddingStart="20mm" android:paddingEnd="20mm" />
+		<TextView android:textSize="38mm" android:textColor="res/color/item_color_selector.xml" android:tag="binding_4" android:background="res/drawable/item_selector.xml" android:paddingBottom="20mm" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="100mm" android:text="My Sharing" android:layout_below="false" android:paddingStart="20mm" android:paddingEnd="20mm" />
+		<TextView android:textSize="38mm" android:textColor="res/color/item_color_selector.xml" android:tag="binding_5" android:background="res/drawable/item_selector.xml" android:paddingBottom="20mm" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="100mm" android:text="Storage Recommendation" android:layout_below="false" android:paddingStart="20mm" android:paddingEnd="20mm" />
 	</LinearLayout>
-	<RelativeLayout android:tag="binding_4" android:background="res/drawable/bg_line.xml" android:layout_width="-1" android:layout_height="-1">
+	<RelativeLayout android:tag="binding_6" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
 		<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
 			<ImageView android:background="res/drawable-xxhdpi-v4/nogame.png" android:layout_width="400mm" android:layout_height="250mm" />
-			<TextView android:textSize="46mm" android:textColor="4f5756" android:layout_gravity="0x1" android:tag="binding_5" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40mm" />
+			<TextView android:textSize="38mm" android:textColor="4f5756" android:layout_gravity="0x1" android:tag="binding_7" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40mm" />
 		</LinearLayout>
 	</RelativeLayout>
-	<RelativeLayout android:tag="binding_6" android:background="res/drawable/bg_line.xml" android:padding="80mm" android:layout_width="-1" android:layout_height="-1">
-		<TextView android:textSize="38mm" android:textColor="666666" android:id="false" android:layout_width="-1" android:layout_height="-2" android:text="Choose a save to enter the game" />
-		<LinearLayout android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20mm" android:layout_alignParentBottom="true">
-			<TextView android:textSize="38mm" android:textColor="e14852" android:gravity="0x11" android:tag="binding_7" android:background="res/drawable/bg_circular_red_border.xml" android:padding="25mm" android:layout_width="-2" android:layout_height="-2" android:minWidth="320mm" android:text="Manage saves" />
-			<LinearLayout android:tag="binding_8" android:layout_width="-2" android:layout_height="-2">
-				<TextView android:textSize="38mm" android:textColor="ffffff" android:gravity="0x11" android:tag="binding_9" android:background="res/drawable/bg_circular_red.xml" android:padding="25mm" android:layout_width="320mm" android:layout_height="-2" android:text="Confirm delete" />
-				<TextView android:textSize="38mm" android:textColor="ffffff" android:gravity="0x11" android:tag="binding_10" android:background="res/drawable/bg_circular_red.xml" android:padding="25mm" android:layout_width="320mm" android:layout_height="-2" android:layout_marginStart="50mm" />
-				<TextView android:textSize="38mm" android:textColor="ffffff" android:gravity="0x11" android:tag="binding_11" android:background="res/drawable/bg_circular_red.xml" android:padding="25mm" android:layout_width="320mm" android:layout_height="-2" android:layout_marginStart="50mm" />
-				<TextView android:textSize="38mm" android:textColor="ffffff" android:gravity="0x11" android:tag="binding_12" android:background="res/drawable/bg_circular_red.xml" android:padding="25mm" android:layout_width="320mm" android:layout_height="-2" android:text="Back" android:layout_marginStart="50mm" />
-			</LinearLayout>
+	<RelativeLayout android:tag="binding_8" android:background="ffffff" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:orientation="0" android:id="false" android:tag="binding_9" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20mm" android:layout_centerHorizontal="true">
+			<Button android:textSize="28mm" android:gravity="0x11" android:id="false" android:tag="binding_10" android:padding="0dp" android:layout_width="150mm" android:layout_height="-1" android:minHeight="70mm" android:text="Top" android:textAllCaps="false" android:translationZ="10dp" />
+			<Button android:textSize="28mm" android:gravity="0x11" android:id="false" android:tag="binding_11" android:padding="0dp" android:layout_width="150mm" android:layout_height="-1" android:minHeight="70mm" android:text="Latest" android:textAllCaps="false" android:layout_marginStart="-1dp" />
 		</LinearLayout>
-		<androidx.recyclerview.widget.RecyclerView android:id="false" android:tag="binding_13" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="40mm" android:layout_above="false" android:layout_below="false" android:layout_centerVertical="true" />
+		<TextView android:textSize="28mm" android:textColor="808aa1" android:gravity="0x50" android:id="false" android:tag="binding_12" android:layout_width="-2" android:layout_height="-2" android:layout_weight="{4:1065353216}" android:layout_below="false" android:layout_marginStart="130mm" />
+		<com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="30mm" android:layout_marginBottom="40mm" android:layout_below="false" android:layout_centerVertical="true" android:layout_marginStart="80mm" android:layout_marginEnd="80mm">
+			<com.scwang.smart.refresh.header.ClassicsHeader android:layout_width="-1" android:layout_height="-2" />
+			<androidx.recyclerview.widget.RecyclerView android:id="false" android:tag="binding_13" android:layout_width="-1" android:layout_height="-1" android:overScrollMode="2" />
+			<com.scwang.smart.refresh.footer.ClassicsFooter android:layout_width="-1" android:layout_height="-2" />
+		</com.scwang.smart.refresh.layout.SmartRefreshLayout>
 	</RelativeLayout>
 </LinearLayout>

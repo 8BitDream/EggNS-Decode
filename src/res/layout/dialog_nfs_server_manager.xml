@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto" android:layout_gravity="0x11" android:orientation="1" android:tag="layout/dialog_nfs_server_manager_0" android:fitsSystemWindows="true" android:layout_width="-2" android:layout_height="-2" android:fillViewport="true">
+	<RelativeLayout android:layout_width="1060mm" android:layout_height="-2">
+		<ImageView android:id="false" android:padding="20mm" android:layout_width="80mm" android:layout_height="80mm" android:src="res/drawable-xxhdpi-v4/input_del.png" android:scaleType="1" android:layout_toEndOf="false" />
+		<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/bg_circular_white_2.xml" android:paddingTop="20mm" android:layout_width="960mm" android:layout_height="-2" android:layout_below="false">
+			<LinearLayout android:layout_gravity="0x800015" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20mm" android:layout_marginEnd="50mm">
+				<ImageView android:layout_gravity="0x11" android:id="false" android:padding="10mm" android:layout_width="80mm" android:layout_height="80mm" android:src="res/drawable-xxhdpi-v4/nfs_scan_server.png" android:scaleType="1" />
+				<ImageView android:layout_gravity="0x11" android:id="false" android:padding="10mm" android:layout_width="80mm" android:layout_height="80mm" android:src="res/drawable-xxhdpi-v4/nfs_add_server.png" android:scaleType="1" android:layout_marginStart="30mm" />
+			</LinearLayout>
+			<TextView android:textSize="38mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="50mm" android:text="Select / add a shared address, and then select the game:" android:layout_marginStart="50mm" />
+			<View android:background="15777777" android:layout_width="-1" android:layout_height="2mm" android:layout_marginTop="25mm" />
+			<FrameLayout android:layout_width="-1" android:layout_height="450mm">
+				<androidx.recyclerview.widget.RecyclerView android:id="false" android:tag="binding_1" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="30mm" android:layout_marginStart="50mm" android:layout_marginEnd="50mm" />
+				<ProgressBar android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="100mm" android:layout_height="100mm" />
+			</FrameLayout>
+		</LinearLayout>
+	</RelativeLayout>
+</androidx.core.widget.NestedScrollView>

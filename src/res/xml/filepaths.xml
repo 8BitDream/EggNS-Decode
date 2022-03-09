@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:null="http://schemas.android.com/apk/res/android">
+	<external-files-path name="umeng_cache" path="umeng_cache/" />
+</paths>

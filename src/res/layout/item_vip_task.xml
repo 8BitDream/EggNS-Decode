@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:tag="layout/item_vip_task_0" android:paddingTop="25mm" android:layout_width="-1" android:layout_height="-2" android:paddingStart="50mm" android:paddingEnd="50mm">
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+			<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:textSize="32mm" android:textColor="000" android:id="false" android:tag="binding_1" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="10mm" android:layout_weight="{4:1065353216}" />
+				<Button android:textSize="28mm" android:textColor="737a8c" android:gravity="0x11" android:layout_gravity="0x30" android:id="false" android:background="res/drawable/bg_circular_red_grey.xml" android:visibility="2" android:layout_width="150mm" android:layout_height="60mm" android:textAllCaps="false" />
+				<Button android:textSize="28mm" android:textColor="e14852" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_circular_red_border.xml" android:visibility="2" android:layout_width="150mm" android:layout_height="62mm" android:layout_marginStart="30mm" />
+				<Button android:textSize="28mm" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x30" android:id="false" android:tag="binding_2" android:background="res/drawable/bg_circular_red.xml" android:layout_width="150mm" android:layout_height="60mm" android:textAllCaps="false" android:layout_marginStart="30mm" />
+			</LinearLayout>
+			<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0dp" android:layout_marginTop="10mm" android:layout_weight="{4:1065353216}">
+				<TextView android:textSize="28mm" android:textColor="808aa1" android:gravity="0x50" android:id="false" android:tag="binding_3" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="{4:1065353216}" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+	<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="25mm" />
+</LinearLayout>

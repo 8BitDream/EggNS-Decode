@@ -3,23 +3,23 @@
 	<LinearLayout android:gravity="0x11" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="50mm">
 		<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-2" android:layout_height="-2">
 			<ImageView android:tag="binding_1" android:layout_width="36mm" android:layout_height="36mm" android:layout_marginRight="20mm" />
-			<TextView android:textSize="28mm" android:id="false" android:tag="binding_2" android:layout_width="-2" android:layout_height="-2" android:text="输入共享地址" />
+			<TextView android:textSize="28mm" android:id="false" android:tag="binding_2" android:layout_width="-2" android:layout_height="-2" android:text="Enter the shared address" />
 		</LinearLayout>
 		<TextView android:textSize="40mm" android:tag="binding_3" android:layout_width="-2" android:layout_height="-2" android:text="&gt;" android:layout_marginStart="30mm" android:layout_marginEnd="30mm" />
 		<LinearLayout android:gravity="0x10" android:orientation="0" android:layout_width="-2" android:layout_height="-2">
 			<ImageView android:tag="binding_4" android:layout_width="36mm" android:layout_height="36mm" android:layout_marginRight="20mm" />
-			<TextView android:textSize="28mm" android:id="false" android:tag="binding_5" android:layout_width="-2" android:layout_height="-2" android:text="选择连接身份" />
+			<TextView android:textSize="28mm" android:id="false" android:tag="binding_5" android:layout_width="-2" android:layout_height="-2" android:text="Select identity" />
 		</LinearLayout>
 	</LinearLayout>
-	<EditText android:textSize="30mm" android:id="false" android:tag="binding_6" android:background="res/drawable/bg_edittext_circular_red_grey.xml" android:paddingLeft="20mm" android:layout_width="-1" android:layout_height="80mm" android:layout_margin="50mm" android:hint="共享地址" android:singleLine="true" android:inputType="0x11" android:textAlignment="5" />
+	<EditText android:textSize="30mm" android:id="false" android:tag="binding_6" android:background="res/drawable/bg_edittext_circular_red_grey.xml" android:paddingLeft="20mm" android:layout_width="-1" android:layout_height="80mm" android:layout_margin="50mm" android:hint="For example: 192.168.0.1/ROMS" android:singleLine="true" android:inputType="0x11" android:textAlignment="5" />
 	<LinearLayout android:tag="binding_7" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="50mm" android:layout_marginStart="50mm" android:layout_marginEnd="50mm">
 		<FrameLayout android:layout_width="44mm" android:layout_height="44mm" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
 			<ImageView android:layout_gravity="0x11" android:id="false" android:tag="binding_8" android:layout_width="-1" android:layout_height="-1" android:scaleType="1" />
 		</FrameLayout>
-		<TextView android:textSize="30mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="游客" android:layout_marginStart="20mm" />
+		<TextView android:textSize="30mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:text="Tourist" android:layout_marginStart="20mm" />
 	</LinearLayout>
 	<EditText android:textSize="30mm" android:id="false" android:tag="binding_9" android:background="res/drawable/bg_edittext_circular_red_grey.xml" android:paddingLeft="20mm" android:layout_width="-1" android:layout_height="80mm" android:layout_marginTop="50mm" android:hint="User name" android:singleLine="true" android:textAlignment="5" android:layout_marginStart="50mm" android:layout_marginEnd="50mm" />
-	<EditText android:textSize="30mm" android:id="false" android:tag="binding_10" android:background="res/drawable/bg_edittext_circular_red_grey.xml" android:paddingLeft="20mm" android:layout_width="-1" android:layout_height="80mm" android:layout_marginTop="20mm" android:hint="Password" android:singleLine="true" android:textAlignment="5" android:layout_marginStart="50mm" android:layout_marginEnd="50mm" />
+	<EditText android:textSize="30mm" android:id="false" android:tag="binding_10" android:background="res/drawable/bg_edittext_circular_red_grey.xml" android:paddingLeft="20mm" android:layout_width="-1" android:layout_height="80mm" android:layout_marginTop="20mm" android:hint="Password" android:singleLine="true" android:inputType="0x12" android:textAlignment="5" android:layout_marginStart="50mm" android:layout_marginEnd="50mm" />
 	<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="50mm" android:showDividers="0x2">
 		<TextView android:textSize="36mm" android:textColor="666666" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_circular_red_grey.xml" android:layout_width="280mm" android:layout_height="80mm" android:layout_marginRight="80mm" android:text="Cancel" android:maxLines="1" android:layout_marginEnd="80mm" android:autoSizeTextType="1" android:autoSizeStepGranularity="1mm" android:autoSizeMinTextSize="10mm" android:autoSizeMaxTextSize="36mm" />
 		<TextView android:textSize="36mm" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:tag="binding_11" android:background="res/drawable/bg_circular_red_bg.xml" android:layout_width="280mm" android:layout_height="80mm" android:maxLines="1" android:autoSizeTextType="1" android:autoSizeStepGranularity="1mm" android:autoSizeMinTextSize="10mm" android:autoSizeMaxTextSize="36mm" />

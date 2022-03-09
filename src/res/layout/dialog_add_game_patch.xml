@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="0x11" android:orientation="1" android:background="res/drawable/bg_circular_white_2.xml" android:layout_width="-2" android:layout_height="-2">
+	<LinearLayout android:orientation="1" android:background="res/drawable/bg_circular_white_2.xml" android:layout_width="960mm" android:layout_height="-2">
+		<TextView android:textSize="32mm" android:textStyle="0x1" android:textColor="000" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30mm" android:layout_marginStart="50mm" android:layout_marginEnd="50mm" />
+		<EditText android:textSize="26mm" android:textColor="666666" android:textColorHint="808aa1" android:id="false" android:background="res/drawable/bg_circular_red_grey.xml" android:layout_width="-1" android:layout_height="80mm" android:layout_marginTop="30mm" android:hint="Please enter the game name and patch description" android:singleLine="true" android:paddingStart="20mm" android:layout_marginStart="50mm" android:layout_marginEnd="50mm" />
+		<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30mm" android:layout_marginStart="50mm">
+			<Button android:textSize="28mm" android:textColor="e14852" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_circular_red_border.xml" android:visibility="0" android:layout_width="-2" android:layout_height="62mm" android:text="+Upload patch" android:textAllCaps="false" android:paddingStart="25mm" android:paddingEnd="25mm" />
+			<TextView android:textSize="26mm" android:textColor="666666" android:layout_gravity="0x50" android:layout_width="-2" android:layout_height="-2" android:text="The size must be less than 200Mb" android:layout_marginStart="20mm" />
+		</LinearLayout>
+		<TextView android:textSize="26mm" android:textColor="666666" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10mm" android:text="" android:layout_marginStart="50mm" />
+		<TextView android:textSize="32mm" android:textColor="666666" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30mm" android:text="Applicable game version" android:layout_marginStart="50mm" />
+		<LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10mm" android:layout_marginStart="50mm">
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2">
+				<ImageView android:id="false" android:layout_width="30mm" android:layout_height="30mm" android:src="res/drawable-xxhdpi-v4/pop_icon_choosed.png" />
+				<TextView android:textSize="26mm" android:textColor="666666" android:layout_width="-2" android:layout_height="-2" android:text="Specified" android:layout_marginStart="10mm" />
+			</LinearLayout>
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginStart="80mm">
+				<ImageView android:id="false" android:layout_width="30mm" android:layout_height="30mm" android:src="res/drawable-xxhdpi-v4/pop_icon_choose.png" />
+				<TextView android:textSize="26mm" android:textColor="666666" android:layout_width="-2" android:layout_height="-2" android:text="General" android:layout_marginStart="10mm" />
+			</LinearLayout>
+		</LinearLayout>
+		<EditText android:textSize="26mm" android:textColor="666666" android:textColorHint="808aa1" android:id="false" android:background="res/drawable/bg_circular_red_grey.xml" android:layout_width="-1" android:layout_height="80mm" android:layout_marginTop="20mm" android:hint="Required: please enter the applicable version of the game (Multiple patches can be separated by &apos;,&apos;)" android:singleLine="true" android:digits="0123456789.," android:inputType="0x2002" android:paddingStart="20mm" android:layout_marginStart="50mm" android:layout_marginEnd="50mm" />
+		<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="50mm" android:showDividers="0x2">
+			<TextView android:textSize="36mm" android:textColor="666666" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_circular_red_grey.xml" android:layout_width="280mm" android:layout_height="80mm" android:layout_marginRight="80mm" android:text="Cancel" android:maxLines="1" android:layout_marginEnd="80mm" android:autoSizeTextType="1" android:autoSizeStepGranularity="1mm" android:autoSizeMinTextSize="10mm" android:autoSizeMaxTextSize="36mm" />
+			<com.xiaoji.gamesirnsemulator.view.DownloadProgressButton android:textSize="36mm" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_circular_red_bg.xml" android:visibility="0" android:layout_width="280mm" android:layout_height="80mm" android:text="Add" android:maxLines="1" android:textAllCaps="false" android:paddingStart="25mm" android:paddingEnd="25mm" android:autoSizeTextType="1" android:autoSizeStepGranularity="1mm" android:autoSizeMinTextSize="10mm" android:autoSizeMaxTextSize="36mm" app:backgroud_color="e14852" app:backgroud_second_color="e14852" app:backgroud_strokeWidth="1dp" app:radius="{4:1092616192}" app:text_color="ffffff" app:text_covercolor="ffffff" app:text_normal="Add" />
+		</LinearLayout>
+	</LinearLayout>
+</androidx.core.widget.NestedScrollView>

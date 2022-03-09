@@ -4,6 +4,6 @@
 		<FrameLayout android:layout_width="-2" android:layout_height="-2">
 			<ImageView android:tag="binding_1" android:layout_width="-2" android:layout_height="-2" android:src="res/drawable-xxhdpi-v4/image_user_nomal.png" android:scaleType="1" />
 		</FrameLayout>
-		<TextView android:textSize="30mm" android:textColor="666666" android:tag="binding_2" android:layout_width="-2" android:layout_height="-2" />
+		<TextView android:textSize="30mm" android:textColor="666666" android:tag="binding_2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10mm" />
 	</LinearLayout>
 </LinearLayout>

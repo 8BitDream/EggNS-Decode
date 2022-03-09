@@ -15,8 +15,8 @@
 		<View android:background="15777777" android:layout_width="2mm" android:layout_height="-1" />
 		<androidx.core.widget.NestedScrollView android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
 			<LinearLayout android:orientation="1" android:background="99f1f1f2" android:layout_width="-1" android:layout_height="-1">
-				<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="80mm" android:layout_marginBottom="80mm" android:layout_marginStart="120mm" android:layout_marginEnd="120mm" />
-				<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="1" android:tag="binding_2" android:background="ffffff" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="80mm" android:layout_marginBottom="80mm" android:layout_marginStart="120mm" android:layout_marginEnd="120mm">
+				<androidx.recyclerview.widget.RecyclerView android:id="false" android:tag="binding_2" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="80mm" android:layout_marginBottom="80mm" android:layout_marginStart="120mm" android:layout_marginEnd="120mm" />
+				<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="1" android:tag="binding_3" android:background="ffffff" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="80mm" android:layout_marginBottom="80mm" android:layout_marginStart="120mm" android:layout_marginEnd="120mm">
 					<ImageView android:background="res/drawable-xxhdpi-v4/pop_icon_cardroom.png" android:layout_width="200mm" android:layout_height="200mm" />
 					<TextView android:textSize="38mm" android:textColor="4f5756" android:layout_gravity="0x1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20mm" android:text="No driver available" />
 				</LinearLayout>

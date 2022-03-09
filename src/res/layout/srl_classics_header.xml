@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2">
+	<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="20dp" android:layout_toLeftOf="false" android:layout_centerVertical="true" android:contentDescription="resourceId:0x104000f" android:layout_marginEnd="20dp" android:layout_toStartOf="false" />
+	<ImageView android:id="false" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="20dp" android:layout_toLeftOf="false" android:layout_centerVertical="true" android:contentDescription="resourceId:0x104000f" android:layout_marginEnd="20dp" android:layout_toStartOf="false" />
+	<LinearLayout android:gravity="0x1" android:orientation="1" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+		<TextView android:textSize="15sp" android:textColor="666666" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Pull Down To Refresh" android:maxLines="1" />
+		<TextView android:textSize="12sp" android:textColor="7c7c7c" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="&apos;Last Update&apos; M-d HH:mm" android:maxLines="1" />
+	</LinearLayout>
+</merge>

@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:duplicateParentState="true" android:descendantFocusability="2" android:layout_width="-2" android:layout_height="-2">
-	<com.xiaoji.gamesirnsemulator.view.tv.BlurryFrameLayout android:id="false" android:layout_width="261mm" android:layout_height="261mm" android:layout_marginTop="30mm" android:layout_marginBottom="110mm" android:layout_marginStart="30mm" android:layout_marginEnd="30mm">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:duplicateParentState="true" android:descendantFocusability="2" android:layout_width="-2" android:layout_height="-2">
+	<com.xiaoji.gamesirnsemulator.view.tv.BlurryFrameLayout android:id="false" android:layout_width="261mm" android:layout_height="261mm" android:layout_margin="30mm">
 		<FrameLayout android:id="false" android:padding="1mm" android:layout_width="-1" android:layout_height="-1">
 			<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:src="res/drawable-xxhdpi-v4/img_game_default.png" android:scaleType="1" />
 			<TextView android:textSize="24mm" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x50" android:id="false" android:background="60000" android:visibility="1" android:layout_width="-1" android:layout_height="80mm" />
 			<ImageView android:layout_gravity="0x800005" android:id="false" android:paddingTop="10mm" android:paddingRight="10mm" android:paddingBottom="17mm" android:layout_width="80mm" android:layout_height="80mm" android:src="res/drawable-xxhdpi-v4/home_icon_setting.png" android:paddingStart="17mm" />
 		</FrameLayout>
 	</com.xiaoji.gamesirnsemulator.view.tv.BlurryFrameLayout>
-	<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="0x51" android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="20mm">
-		<ImageView android:layout_width="261mm" android:layout_height="75mm" android:src="res/drawable-xxhdpi-v4/home_game_setting.png" android:scaleType="1" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
-		<TextView android:textSize="26mm" android:textColor="4f5756" android:gravity="0x11" android:id="false" android:padding="10mm" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="10mm" android:text="Forum" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="false" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" />
-		<TextView android:textSize="26mm" android:textColor="4f5756" android:gravity="0x11" android:id="false" android:padding="10mm" android:layout_width="0dp" android:layout_height="-2" android:layout_marginTop="10mm" android:text="Setup" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="false" app:layout_constraintTop_toTopOf="0" />
-	</androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

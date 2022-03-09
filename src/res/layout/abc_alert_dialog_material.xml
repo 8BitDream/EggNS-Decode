@@ -6,7 +6,7 @@
 		<androidx.core.widget.NestedScrollView android:id="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2">
 			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
 				<android.widget.Space android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="18dp" />
-				<TextView android:id="resourceId:0x102000b" android:paddingLeft="{2:2130903179}" android:paddingRight="{2:2130903179}" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f0f00e7" />
+				<TextView android:id="resourceId:0x102000b" android:paddingLeft="{2:2130903179}" android:paddingRight="{2:2130903179}" android:layout_width="-1" android:layout_height="-2" style="resourceId:0x7f0f00eb" />
 				<android.widget.Space android:id="false" android:visibility="2" android:layout_width="-1" android:layout_height="18dp" />
 			</LinearLayout>
 		</androidx.core.widget.NestedScrollView>

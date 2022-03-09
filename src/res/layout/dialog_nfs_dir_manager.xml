@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto" android:layout_gravity="0x11" android:orientation="1" android:tag="layout/dialog_nfs_dir_manager_0" android:fitsSystemWindows="true" android:layout_width="-2" android:layout_height="-2" android:fillViewport="true">
+	<LinearLayout android:orientation="1" android:background="res/drawable/bg_circular_white_2.xml" android:layout_width="960mm" android:layout_height="-2">
+		<FrameLayout android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:tag="binding_1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="50mm" android:layout_marginStart="50mm" android:layout_marginEnd="50mm">
+				<ImageView android:layout_width="40mm" android:layout_height="35mm" android:src="res/drawable-xxhdpi-v4/pop_icon_folder.png" android:scaleType="1" />
+				<TextView android:textSize="26mm" android:textColor="666666" android:layout_width="-2" android:layout_height="-2" android:text="Return to the previous step" android:layout_marginStart="10mm" />
+			</LinearLayout>
+			<LinearLayout android:layout_gravity="0x800005" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10mm" android:layout_marginStart="50mm" android:layout_marginEnd="50mm">
+				<EditText android:textSize="28mm" android:textColor="666666" android:textColorHint="808aa1" android:id="false" android:tag="binding_2" android:background="res/drawable/bg_circular_red_grey.xml" android:layout_width="0dp" android:layout_height="80mm" android:hint="Please enter a keyword" android:singleLine="true" android:layout_weight="{4:1065353216}" android:imeOptions="0x3" android:paddingStart="20mm" />
+				<ImageView android:layout_gravity="0x10" android:id="false" android:tag="binding_3" android:layout_width="45mm" android:layout_height="45mm" android:src="res/drawable-xxhdpi-v4/input_search.png" android:scaleType="1" android:layout_marginStart="20mm" />
+				<ImageView android:layout_gravity="0x10" android:id="false" android:layout_width="40mm" android:layout_height="40mm" android:src="res/drawable-xxhdpi-v4/input_del.png" android:scaleType="1" android:layout_marginStart="30mm" />
+			</LinearLayout>
+		</FrameLayout>
+		<TextView android:textSize="28mm" android:textColor="999999" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20mm" android:layout_marginStart="50mm" android:layout_marginEnd="50mm" />
+		<FrameLayout android:layout_width="-1" android:layout_height="400mm">
+			<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="30mm" android:layout_marginStart="50mm" android:layout_marginEnd="50mm" />
+			<ProgressBar android:layout_gravity="0x11" android:id="false" android:visibility="2" android:layout_width="100mm" android:layout_height="100mm" />
+		</FrameLayout>
+		<LinearLayout android:layout_gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_margin="30mm" android:showDividers="0x2">
+			<TextView android:textSize="28mm" android:textColor="666666" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_circular_red_grey.xml" android:layout_width="280mm" android:layout_height="70mm" android:layout_marginRight="80mm" android:text="Copy to local" android:maxLines="1" android:layout_marginEnd="80mm" android:autoSizeTextType="1" android:autoSizeStepGranularity="1mm" android:autoSizeMinTextSize="10mm" android:autoSizeMaxTextSize="28mm" />
+			<TextView android:textSize="28mm" android:textColor="ffffff" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_circular_red_bg.xml" android:layout_width="280mm" android:layout_height="70mm" android:layout_marginRight="80mm" android:text="Create a shortcut" android:maxLines="1" android:layout_marginEnd="80mm" android:autoSizeTextType="1" android:autoSizeStepGranularity="1mm" android:autoSizeMinTextSize="10mm" android:autoSizeMaxTextSize="28mm" />
+		</LinearLayout>
+	</LinearLayout>
+</androidx.core.widget.NestedScrollView>

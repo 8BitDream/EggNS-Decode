@@ -4,7 +4,7 @@
 	<LinearLayout android:orientation="1" android:id="false" android:background="res/drawable/bg_circular_white_2.xml" android:paddingBottom="10dp" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="10dp" android:paddingStart="20dp" android:paddingEnd="20dp" android:layout_marginStart="120dp" android:layout_marginEnd="120dp">
 		<RelativeLayout android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_weight="{4:1065353216}">
 			<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
-				<TextView android:textSize="14sp" android:textColor="000" android:gravity="0x11" android:paddingTop="10dp" android:layout_width="-2" android:layout_height="-2" android:text="为获得更好的游戏体验，请拷贝游戏至手机." />
+				<TextView android:textSize="14sp" android:textColor="000" android:gravity="0x11" android:paddingTop="10dp" android:layout_width="-2" android:layout_height="-2" android:text="For a better gaming experience, please copy the game to your phone" />
 				<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
 				<View android:background="dddddd" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="2dp" />
 			</LinearLayout>
@@ -20,7 +20,7 @@
 			<TextView android:textSize="15sp" android:textColor="000" android:gravity="0x11" android:layout_gravity="0x1" android:id="false" android:tag="binding_2" android:padding="10mm" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" />
 			<TextView android:textSize="12sp" android:textColor="000" android:gravity="0x11" android:layout_gravity="0x1" android:id="false" android:tag="binding_3" android:padding="10mm" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true" android:layout_marginStart="10dp" android:layout_toEndOf="false" />
 			<LinearLayout android:gravity="0x800005" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_toEndOf="false" android:layout_alignParentEnd="true">
-				<com.xiaoji.gamesirnsemulator.view.ProgressButton android:textSize="14sp" android:textColor="ffffff" android:id="false" android:tag="binding_4" android:padding="0dp" android:layout_width="400mm" android:layout_height="80mm" android:text="复制到手机" app:cornerRadius="2dp" app:maxProgress="100" app:minProgress="1" />
+				<com.xiaoji.gamesirnsemulator.view.ProgressButton android:textSize="14sp" android:textColor="ffffff" android:id="false" android:tag="binding_4" android:padding="0dp" android:layout_width="400mm" android:layout_height="80mm" android:text="Copy the game to your phone" app:cornerRadius="2dp" app:maxProgress="100" app:minProgress="1" />
 				<TextView android:textSize="12sp" android:textColor="000" android:tag="binding_5" android:padding="2dp" android:layout_width="-2" android:layout_height="-2" />
 			</LinearLayout>
 		</RelativeLayout>

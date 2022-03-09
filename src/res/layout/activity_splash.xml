@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x11" android:orientation="1" android:tag="layout/activity_splash_0" android:background="res/drawable/bitmap_main_bg.xml" android:layout_width="-1" android:layout_height="-1">
 	<ImageView android:layout_width="250mm" android:layout_height="250mm" android:src="res/drawable-xxhdpi-v4/ic_splash_icon.png" android:scaleType="1" />
-	<TextView android:textSize="42mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20mm" android:text="EGG NS EMULAOTR" />
+	<TextView android:textSize="42mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20mm" android:text="Egg NS Emulator" android:textAllCaps="false" />
 	<TextView android:textSize="42mm" android:textColor="808080" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5mm" android:text="Egg NS" />
 </LinearLayout>

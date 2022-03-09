@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto" android:orientation="1" android:tag="layout/activity_game_patch_0" android:background="f1f1f2" android:layout_width="-1" android:layout_height="-1">
+	<View android:background="15777777" android:layout_width="-1" android:layout_height="2mm" android:layout_marginTop="65mm" />
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:gravity="0x1" android:orientation="1" android:background="ffffff" android:layout_width="390mm" android:layout_height="-1">
+			<LinearLayout android:gravity="0x11" android:orientation="0" android:tag="binding_1" android:padding="30mm" android:layout_width="-1" android:layout_height="-2">
+				<ImageView android:id="false" android:layout_width="20mm" android:layout_height="33mm" android:src="res/drawable-xxhdpi-v4/nav_icon_back.png" android:scaleType="1" android:autoMirrored="true" />
+				<TextView android:textSize="36mm" android:textColor="000" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20mm" android:text="Back" android:layout_marginStart="20mm" />
+			</LinearLayout>
+			<TextView android:textSize="38mm" android:textColor="res/color/item_color_selector.xml" android:tag="binding_2" android:background="res/drawable/item_selector.xml" android:paddingBottom="20mm" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="100mm" android:text="Recommended Patch" android:layout_below="false" android:paddingStart="20mm" android:paddingEnd="20mm" />
+			<TextView android:textSize="38mm" android:textColor="res/color/item_color_selector.xml" android:tag="binding_3" android:background="res/drawable/item_selector.xml" android:paddingBottom="20mm" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="100mm" android:text="My Sharing" android:layout_below="false" android:paddingStart="20mm" android:paddingEnd="20mm" />
+		</LinearLayout>
+		<View android:background="15777777" android:layout_width="2mm" android:layout_height="-1" />
+		<androidx.core.widget.NestedScrollView android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+			<LinearLayout android:orientation="1" android:background="99f1f1f2" android:layout_width="-1" android:layout_height="-1">
+				<LinearLayout android:gravity="0x11" android:layout_gravity="0x800005" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30mm" android:layout_marginEnd="80mm">
+					<Button android:textSize="28mm" android:textColor="e14852" android:gravity="0x11" android:id="false" android:background="res/drawable/bg_circular_red_border.xml" android:visibility="0" android:layout_width="-2" android:layout_height="60mm" android:text="+Upload patch" android:textAllCaps="false" android:paddingStart="25mm" android:paddingEnd="25mm" />
+					<ImageView android:id="false" android:layout_width="64mm" android:layout_height="64mm" android:layout_marginTop="2mm" android:src="res/drawable-xxhdpi-v4/list_question_game_patch.png" android:layout_marginStart="40mm" />
+				</LinearLayout>
+				<com.scwang.smart.refresh.layout.SmartRefreshLayout android:id="false" android:tag="binding_4" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="30mm" android:layout_marginBottom="40mm" android:layout_weight="{4:1065353216}" android:layout_centerVertical="true" android:layout_marginStart="80mm" android:layout_marginEnd="80mm">
+					<com.scwang.smart.refresh.header.ClassicsHeader android:layout_width="-1" android:layout_height="-2" />
+					<androidx.recyclerview.widget.RecyclerView android:id="false" android:layout_width="-1" android:layout_height="-1" />
+					<com.scwang.smart.refresh.footer.ClassicsFooter android:layout_width="-1" android:layout_height="-2" />
+				</com.scwang.smart.refresh.layout.SmartRefreshLayout>
+				<LinearLayout android:gravity="0x11" android:layout_gravity="0x11" android:orientation="1" android:tag="binding_5" android:background="ffffff" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="40mm" android:layout_marginBottom="40mm" android:layout_marginStart="80mm" android:layout_marginEnd="80mm">
+					<ImageView android:background="res/drawable-xxhdpi-v4/pic_game_nomal.png" android:layout_width="200mm" android:layout_height="150mm" />
+					<TextView android:textSize="38mm" android:textColor="4f5756" android:layout_gravity="0x1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20mm" android:text="No patches available" />
+				</LinearLayout>
+			</LinearLayout>
+		</androidx.core.widget.NestedScrollView>
+	</LinearLayout>
+</LinearLayout>

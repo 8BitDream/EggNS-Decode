@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto" android:tag="layout/dialog_vip_task_0" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+	<FrameLayout android:layout_width="-1" android:layout_height="-1">
+		<LinearLayout android:layout_gravity="0x11" android:orientation="1" android:background="res/drawable/bg_circular_white_2.xml" android:layout_width="960mm" android:layout_height="-2">
+			<TextView android:textSize="48mm" android:textColor="000" android:gravity="0x11" android:layout_gravity="0x11" android:id="false" android:tag="binding_1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="40mm" />
+			<TextView android:textSize="36mm" android:textColor="808aa1" android:id="false" android:tag="binding_2" android:paddingLeft="90mm" android:paddingRight="90mm" android:layout_width="-1" android:layout_height="0dp" android:layout_marginTop="20mm" android:layout_weight="{4:1065353216}" android:paddingStart="90mm" android:paddingEnd="90mm" />
+			<androidx.recyclerview.widget.RecyclerView android:id="false" android:tag="binding_3" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="30mm" android:layout_marginBottom="30mm" android:overScrollMode="2" android:layout_marginStart="40mm" android:layout_marginEnd="40mm" />
+		</LinearLayout>
+	</FrameLayout>
+</androidx.core.widget.NestedScrollView>

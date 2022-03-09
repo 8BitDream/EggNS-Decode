@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/item_nfs_dir_0" android:paddingTop="6mm" android:paddingBottom="6mm" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="20mm">
+	<ImageView android:id="false" android:layout_width="80mm" android:layout_height="80mm" android:src="res/drawable-xxhdpi-v4/pop_icon_folder.png" android:layout_centerVertical="true" />
+	<FrameLayout android:id="false" android:focusable="true" android:layout_width="80mm" android:layout_height="80mm" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+		<ImageView android:layout_gravity="0x11" android:id="false" android:layout_width="36mm" android:layout_height="36mm" android:src="res/drawable-xxhdpi-v4/pop_icon_input_nomal.png" android:scaleType="1" />
+	</FrameLayout>
+	<RelativeLayout android:gravity="0x800013" android:id="false" android:focusable="true" android:layout_width="-1" android:layout_height="100mm" android:layout_centerVertical="true" android:layout_marginStart="20mm" android:layout_toStartOf="false" android:layout_toEndOf="false">
+		<TextView android:textSize="34mm" android:textColor="333333" android:ellipsize="2" android:gravity="0x800003" android:id="false" android:tag="binding_1" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+		<TextView android:textSize="34mm" android:textColor="999999" android:gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" />
+		<TextView android:textSize="34mm" android:textColor="999999" android:gravity="0x11" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_below="false" />
+	</RelativeLayout>
+</RelativeLayout>

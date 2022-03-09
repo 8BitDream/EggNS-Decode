@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:background="ffffff" android:paddingTop="25mm" android:layout_width="-1" android:layout_height="-2" android:paddingStart="50mm" android:paddingEnd="50mm">
+	<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+		<ImageView android:layout_width="53mm" android:layout_height="48mm" android:layout_marginTop="5mm" android:src="res/drawable-xxhdpi-v4/list_game_path.png" />
+		<TextView android:textSize="32mm" android:textColor="000" android:ellipsize="3" android:id="false" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" android:maxEms="35" android:layout_marginStart="10mm" />
+		<TextView android:textSize="28mm" android:textColor="ffffff" android:id="false" android:background="res/drawable/bg_circular_blue.xml" android:paddingTop="5mm" android:paddingBottom="5mm" android:layout_width="-2" android:layout_height="-2" android:text="official" android:paddingStart="15mm" android:paddingEnd="15mm" android:layout_marginStart="15mm" android:layout_marginEnd="15mm" />
+		<View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="{4:1065353216}" />
+		<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+			<LinearLayout android:orientation="0" android:id="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+				<Button android:textSize="28mm" android:textColor="ffffff" android:gravity="0x11" android:layout_gravity="0x30" android:id="false" android:background="res/drawable/bg_circular_red.xml" android:visibility="0" android:layout_width="150mm" android:layout_height="60mm" android:text="Use" android:textAllCaps="false" />
+				<Button android:textSize="28mm" android:textColor="737a8c" android:gravity="0x11" android:layout_gravity="0x30" android:id="false" android:background="res/drawable/bg_circular_red_grey.xml" android:visibility="0" android:layout_width="150mm" android:layout_height="60mm" android:text="Unload" android:textAllCaps="false" android:layout_marginStart="30mm" />
+				<com.xiaoji.gamesirnsemulator.view.DownloadProgressButton android:textSize="28mm" android:textColor="e14852" android:gravity="0x11" android:id="false" android:visibility="0" android:layout_width="150mm" android:layout_height="62mm" android:layout_marginStart="30mm" app:backgroud_color="e14852" app:backgroud_second_color="0000" app:backgroud_strokeWidth="1dp" app:radius="{4:1092616192}" app:text_color="e14852" app:text_covercolor="ffffff" app:text_normal="Download" />
+			</LinearLayout>
+			<TextView android:textSize="28mm" android:textColor="828a9f" android:gravity="0x11" android:layout_gravity="0x30" android:id="false" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:text="Under verifying" android:textAllCaps="false" />
+			<TextView android:textSize="22mm" android:textColor="808aa1" android:layout_gravity="0x800005" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10mm" />
+		</LinearLayout>
+	</LinearLayout>
+	<TextView android:textSize="28mm" android:textColor="808aa1" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10mm" />
+	<View android:background="15777777" android:layout_width="-1" android:layout_height="1mm" android:layout_marginTop="25mm" />
+</LinearLayout>
